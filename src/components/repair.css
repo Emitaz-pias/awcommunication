@@ -1,0 +1,34 @@
+.repair-page-container{
+    padding:80px 79px;
+}
+.page-heading{
+    text-align: left;
+}
+
+.overview-details{
+margin: 28px 0px;
+font-weight: 400;
+}
+.repair-is-simple{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.repair-is-simple-heading{
+    text-align: center;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    border-radius: 8px;
+    text-align: center;
+    padding:10px;
+}
+.we-know-device-left{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}

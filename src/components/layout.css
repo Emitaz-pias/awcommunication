@@ -1,0 +1,33 @@
+.nav-dropdown{
+    color: white !important;
+}
+.search-input{
+    width: 100%;
+    padding: 5px 8px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-search-btn{
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all .3s ease;
+    border: 2px solid transparent;
+}
+.header-search-btn:hover{
+    border: 1px solid;
+    border: 2px solid  #FE9D12;
+}
+.page-container{
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+}
+
+@media screen and (max-width: 992px) {
+    .responsive-midnav{
+        display: none;
+    }
+  }
