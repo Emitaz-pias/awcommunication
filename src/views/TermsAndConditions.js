@@ -193,33 +193,25 @@ function TermsAndConditions(props) {
                 order to forestall abuse, AWC reserve the proper to restrict the
                 variety of exchanges from a unique customer.
               </p>
-              <h3>
-                6. Description of Products:{" "}
-                <span
-                  style={{
-                    fontSize: "15px",
-                    color: "#333333",
-                    fontWeight: "normal",
-                  }}
-                >
-                  All Products are second hand unless specifically stated and
-                  all Product descriptions and images are for display purposes
-                  only and do not represent the finished Product.
-                </span>
-              </h3>
               <p>
-                6.1 Box contents may vary; additional downloadable content
-                listed on the box may not be included.CeX cannot confirm the
-                price of a product until your order is accepted in accordance
-                with our policies.
+                Description of Products: All Products are 2nd hand except mainly
+                referred to and all Product descriptions and pictures are for
+                show functions solely and do now not symbolize the completed
+                Product.
               </p>
               <p>
-                6.2 Images - images are for illustration purposes only. Actual
-                product design may vary from image.
+                6.1 Box contents may additionally vary; extra downloadable
+                content material listed on the field may also no longer be
+                included.AWC can't verify the rate of a product till your order
+                is well-known in accordance with our policies. .
               </p>
               <p>
-                6.3 Condition of products - the price will vary depending on the
-                cosmetic condition of the Products and its accessories. We break
+                6.2 Images - snap shots are for illustration functions only.
+                Actual product layout may also fluctuate from image.
+              </p>
+              <p>
+                6.3 Condition of merchandise - the fee will range relying on the
+                beauty situation of the Products and its accessories. We smash
                 this down into grades:
               </p>
               <ul>
@@ -227,13 +219,7 @@ function TermsAndConditions(props) {
                 <li>Grade B - Good condition</li>
                 <li>Grade C - Working condition</li>
               </ul>
-              <p>
-                Details and up to date grading can be found{" "}
-                <a href="https://uk.support.webuy.com/support/solutions/articles/17000054100-how-are-your-items-graded-">
-                  here
-                </a>
-                .
-              </p>
+
               <p>6.4 Games consoles are graded as one of the following -</p>
               <ul>
                 <li>Boxed</li>
@@ -241,257 +227,254 @@ function TermsAndConditions(props) {
                 <li>Discounted</li>
               </ul>
               <p>
-                6.5 CeX reserves the right to amend prices anytime without prior
-                notice.
+                6.5 AWC reserves the proper to amend costs each time except
+                prior notice
               </p>
               <p>
-                6.6 All Apple devices must have their iCloud account
-                deactivated. It is the responsibility of the Customer to ensure
-                the device is clear of any accounts, passwords or any other
-                personal information before CeX accepts responsibility.
+                6.6 All Apple gadgets ought to have their iCloud account
+                deactivated. It is the accountability of the Customer to make
+                certain the system is clear of any accounts, passwords or any
+                different private records earlier than AWC accepts
+                responsibility.
               </p>
-              <h3>7. Buying from CeX</h3>
+              <h3>7. Buying from AWC</h3>
               <p>
-                7.1 You hereby acknowledge your sole responsibility to ensure
-                that you have the relevant compatible accessories, suitable
-                power step-downs, equipment, software, display devices and
-                relevant machinery or otherwise needed to safely connect the
-                products to power supplies, mains power, batteries and other
-                devices.
-              </p>
-              <p>
-                7.2 For the purposes of maintaining appropriate demand and
-                supply and ensure 'natural' price fluctuations and stock
-                availability for the benefit of all our customers, CeX reserves
-                the right to limit the number of units of any particular item,
-                sold to any individual customer, at any time.
-              </p>
-              <h3>8. Selling to CeX</h3>
-              <p>
-                8.1 CeX reserves the right to refuse to purchase any Product at
-                their sole discretion.{" "}
+                7.1 You hereby renowned your sole duty to make certain that you
+                have the applicable well matched accessories, appropriate
+                strength step-downs, equipment, software, show gadgets and
+                applicable equipment or in any other case wanted to safely join
+                the merchandise to energy supplies, mains power, batteries and
+                different devices.
               </p>
               <p>
-                8.2 CeX reserves the right to limit the number of purchases at
+                7.2 For the functions of retaining suitable demand and furnish
+                and make certain 'natural' fee fluctuations and inventory
+                availability for the advantage of all our customers, AWC
+                reserves the proper to restriction the variety of devices of any
+                unique item, bought to any man or woman customer, at any time.
+              </p>
+              <h3>8. Selling to AWC </h3>
+              <p>
+                8.1 AWC reserves the proper to refuse to buy any Product at
                 their sole discretion.
               </p>
               <p>
-                8.3 Once you sell your Products to CeX, the ownership will be
-                transferred to CeX. You also warrant that you are the rightful
-                and legitimate owner of the product or have been authorised to
-                sell the product and that the product is free from any
-                encumbrances or third party claims. In case the Products are
-                later found out to be stolen, or encumbered and/or fake, we
-                reserve the right to pursue legal remedy (both civil and
-                criminal) against you.{" "}
+                8.2 AWC reserves the proper to restriction the variety of
+                purchases at their sole discretion.
               </p>
               <p>
-                8.4 Please note that prices quoted on our website are subject to
-                change without prior notice. CeX can pay for the items it bought
-                in cash/bank transfer or vouchers, as per your choice.The price
-                offered in cash varies from the price offered in voucher or
-                exchange. Vouchers once issued, cannot be transferred and hold
-                no cash value
+                8.3 Once you promote your Products to AWC the possession will be
+                transferred to AWC You additionally warrant that you are the
+                rightful and reliable proprietor of the product or have been
+                authorized to promote the product and that the product is free
+                from any encumbrances or 0.33 celebration claims. In case the
+                Products are later observed out to be stolen, or encumbered
+                and/or fake, we reserve the proper to pursue prison treatment
+                (both civil and criminal) in opposition to you.
               </p>
               <p>
-                8.5 Obligation to wipe data: It is the sole responsibility of
-                the Customer to ensure that any device sold to CeX is clear of
-                any personal information. The Customer would use all reasonable
-                measures to wipe/erase the data on the device or any additional
-                storage device included in that device.
+                8.4 Please notice that costs quoted on our internet site are
+                difficulty to exchange barring prior notice. AWC can pay for the
+                gadgets it sold in cash/bank switch or vouchers, as per your
+                choice.The fee provided in money varies from the fee provided in
+                voucher or exchange. Vouchers as soon as issued, can't be
+                transferred and keep no money value
               </p>
               <p>
-                8.6 If a purchase exceeds the redeemers voucher balance, the
-                remaining amount must be paid by an additional voucher, cash or
-                any other payment method being accepted by CeX at that point in
-                time.{" "}
+                8.5 Obligation to wipe data: It is the sole accountability of
+                the Customer to make certain that any gadget offered to AWC is
+                clear of any non-public information. The Customer would use all
+                lifelike measures to wipe/erase the statistics on the system or
+                any extra storage machine protected in that device.
               </p>
               <p>
-                8.7 All the vouchers issued by CeX are transferable.However,
-                selling and purchasing of vouchers shall be done at your own
-                risk.CeX shall not be liable for fraud arising out of or in
-                connection to this. The person who holds the voucher will be
-                considered to be the rightful owner of the voucher.{" "}
+                8.6 If a buy exceeds the redeemers voucher balance, the closing
+                quantity should be paid by using an extra voucher, money or any
+                different charge technique being everyday by means of AWC at
+                that factor in time.
+              </p>
+              <p>
+                8.7 All the vouchers issued by using AWC are
+                transferable.However, promoting and buying of vouchers shall be
+                finished at your personal risk.AWC shall no longer be dependable
+                for fraud bobbing up out of or in connection to this. The man or
+                woman who holds the voucher will be regarded to be the rightful
+                proprietor of the voucher.
               </p>
               <h3>9. Registration/Membership</h3>
               <p>9.1 You warrant that:</p>
               <p>
-                9.1.1 The personal information which you are required to provide
-                when you register as a customer is true, accurate, current and
-                complete in all respects.
+                9.1.1 The private records which you are required to supply when
+                you register as a consumer is true, accurate, cutting-edge and
+                whole in all respects.
               </p>
               <p>
-                9.1.2 You will update your account to reflect any changes to
-                your personal information.
+                9.1.2 You will replace your account to replicate any
+                modifications to your non-public information.
               </p>
               <p>
-                9.1.3 You agree not to impersonate any other person or entity or
-                to use a false name or a name that you are not authorised to
-                use.
+                9.1.3 You agree now not to impersonate any different man or
+                woman or entity or to use a false title or a title that you are
+                no longer approved to use.
               </p>
               <p>
-                9.2 If you wish to sell or exchange products you must become a
-                CeX member and in doing so, agree to be bound by the additional
-                terms and conditions of membership (available on request from
-                any CeX store). For more information please refer to our
-                membership requirements{" "}
-                <a href="https://uk.support.webuy.com/support/solutions/articles/17000050464-what-are-the-membership-requirements-">
-                  here
-                </a>
-                .
+                9.2 If you want to promote or trade merchandise you should grow
+                to be a AWC member and in doing so, agree to be sure through the
+                extra phrases and stipulations of membership (available on
+                request from any AWC store). For greater data please refer to
+                our membership necessities here. .
               </p>
               <p>
-                9.3 If you sell your products in store and choose FPS (bank
-                transfer) as the method of payment, we will create an online
-                account for you so that we can process the payment.
+                9.3 If you promote your merchandise in shop and pick FPS (bank
+                transfer) as the technique of payment, we will create an on-line
+                account for you so that we can technique the payment.
               </p>
               <p>
-                9.4 You may only have one CeX Online account and one CeX Store
-                account registered with CeX. If you hold more than one Online or
-                Store account with CeX the most recently created account will be
-                considered valid and all pre-existing accounts will be
-                suspended.
+                9.4 You may also solely have one AWC Online account and one AWC
+                Store account registered with AWC . If you keep extra than one
+                Online or Store account with AWC the most lately created account
+                will be regarded legitimate and all pre-existing money owed will
+                be suspended.
               </p>
               <h3>10. Intellectual Property Rights</h3>
               <p>
                 10.1 <strong> Copyright</strong>
               </p>
               <p>
-                All content included on the CeX website or displayed in store,
-                such as text, graphics, logos, button icons, images, audio
-                clips, digital downloads, data compilations, and software, is
-                the property of CeX or its content suppliers and protected by UK
-                and international copyright laws.
+                All content material blanketed on the AWC internet site or
+                displayed in store, such as text, graphics, logos, button icons,
+                images, audio clips, digital downloads, records compilations,
+                and software, is the property of AWC or its content material
+                suppliers and blanketed via UK and worldwide copyright laws.
               </p>
               <p>
                 <strong> </strong> 10.2 <strong>Trademarks</strong>
               </p>
               <p>
-                CeX and other marks indicated on CeX's website site and/or store
-                are registered trademarks of CeX, or its subsidiaries, in the UK
-                and other countries. CeX and other graphics, logos, page
-                headers, button icons, scripts, and service names are trademarks
-                or trade dress of CeX or its subsidiaries.
+                AWC and different marks indicated on AWC internet site website
+                online and/or shop are registered emblems of AWC or its
+                subsidiaries, in the UK and different countries. AWC and
+                different graphics, logos, web page headers, button icons,
+                scripts, and provider names are logos or exchange gown of AWC or
+                its subsidiaries.
               </p>
               <h3>11. Export Limitation</h3>
               <p>
-                Certain Products sold by CeX may have been purchased from
-                outside the United Kingdom under certain agreements that
-                restrict or forbid subsequent re-exportation from the United
-                Kingdom. The Customer will not export any Product sold by CeX
-                without first obtaining all appropriate approval from the
-                relevant authorities.
+                Certain Products offered via AWC might also have been bought
+                from outdoor the United Kingdom underneath sure agreements that
+                preclude or forbid subsequent re-exportation from the United
+                Kingdom. The Customer will now not export any Product offered
+                with the aid of AWC except first acquiring all suitable approval
+                from the applicable authorities.
               </p>
               <h3>12. Limitation of Liability</h3>
               <p>
-                12.1 While CeX will use reasonable endeavours to verify the
-                accuracy of any information on the website or displayed in the
-                store, CeX makes no warranties, whether express or implied in
-                relation to its accuracy.
+                12.1 While AWC will use real looking endeavours to affirm the
+                accuracy of any statistics on the internet site or displayed in
+                the store, AWC makes no warranties, whether or not specific or
+                implied in relation to its accuracy.
               </p>
-              <p>12.2 CeX will not be liable, in contract, tort for:</p>
+              <p>12.2 AWC will now not be liable, in contract, tort for:</p>
               <ul>
-                <li>Any economic losses</li>
+                <li>Any monetary losses</li>
                 <li>Any loss of goodwill or reputation</li>
                 <li>
-                  Any special or indirect losses suffered by the User as per the
-                  Terms of Use
+                  Any one-of-a-kind or oblique losses suffered through the User
+                  as per the Terms of Use
                 </li>
               </ul>
               <p>
-                12.3 CeX's liability whether in contract, tort or otherwise in
-                respect of any defect in the Products or for any breach of the
-                Terms of Use or of any duty owed to the Customer in connection
-                herewith shall be limited in the aggregate to the price of the
-                Products in question.
+                12.3 AWC legal responsibility whether or not in contract, tort
+                or otherwise in recognize of any defect in the Products or for
+                any breach of the Terms of Use or of any obligation owed to the
+                Customer in connection herewith shall be restricted in the
+                mixture to the rate of the Products in question.
               </p>
               <h3>13. Severance</h3>
               <p>
-                If any part of the Terms of Use shall be deemed unlawful, void
-                or for any reason unenforceable, then that provision shall be
-                deemed to be severable from the Terms of Use and shall not
-                affect the validity and enforceability of any of the remaining
-                provisions.
+                If any phase of the Terms of Use shall be deemed unlawful, void
+                or for any cause unenforceable, then that provision shall be
+                deemed to be severable from the Terms of Use and shall now not
+                have an effect on the validity and enforceability of any of the
+                ultimate provisions.
               </p>
               <h3>14. Indemnity</h3>
               <p>
-                You agree to indemnify CeX fully from any third party claims
-                arising out of your negligence.
+                You agree to indemnify AWC completely from any 1/3 celebration
+                claims springing up out of your negligence.
               </p>
               <h3>15. Notice</h3>
               <p>
-                15.1 Any notice given under or pursuant to these Terms of Use
-                may be sent by hand or by post or by registered post or by
-                recorded delivery. It would first be received by the addressee
-                in normal business hours.
+                15.1 Any observe given underneath or pursuant to these Terms of
+                Use may also be despatched by way of hand or by means of publish
+                or with the aid of registered submit or by using recorded
+                delivery. It would first be obtained by using the addressee in
+                regular commercial enterprise hours.
               </p>
-              <p>15.2 The registered company name and address is:</p>
+              <p>15.2 The registered organisation title and tackle is:</p>
+
               <p>
-                <strong>
-                  CEX LIMITED, STERLING HOUSE, FULBOURNE ROAD, LONDON E17 4EE.
-                </strong>
-                <br />
-                Company registration number: 03194152.
+                *Please be aware that AWC runs franchise organizations as well.
+                A franchise shop is a exclusive company entity however strictly
+                adheres to AWC enterprise mannequin and act as per the
+                responsibilities below the Franchise Agreement.
               </p>
+
               <p>
-                *Please note that CeX runs franchise businesses as well. A
-                franchise store is a different corporate entity but strictly
-                adheres to CeX business model and act as per the obligations
-                under the Franchise Agreement.
-              </p>
-              <h3>16. Applicable law and Dispute Resolution</h3>
-              <p>
-                While transacting with CeX, you agree to be bound by the laws of
-                England and Wales.
+                16. Applicable regulation and Dispute Resolution While
+                transacting with AWC you agree to be certain with the aid of the
+                legal guidelines of England and Wales.
               </p>
               <h3>17. Data Protection</h3>
               <p>
-                Kindly refer to our Privacy policy{" "}
-                <a href="https://uk.webuy.com/policy/privacy/">here</a>.
+                Kindly refer to our Privacy policy
+                <a href="https://awcommunications.co.uk/privacy">here</a>.
               </p>
               <h3>18. Age Restrictions</h3>
               <p>
-                18.1 The Customer placing orders or making purchases, confirms
-                that he/she is of the appropriate age to receive and view the
-                specified certification of the title(s) of the Product he/she
-                has ordered/purchased.
+                18.1 The Customer putting orders or making purchases, confirms
+                that he/she is of the gorgeous age to acquire and view the
+                targeted certification of the title(s) of the Product he/she has
+                ordered/purchased.
               </p>
               <p>
-                18.2 Any Customer ordering or purchasing a Product for or on
-                behalf of a third person shall need to make sure that the
-                intended recipient of the order is of the appropriate age to
-                receive and view the specified certification of the title(s)
-                he/she has ordered/purchased.
+                18.2 Any Customer ordering or buying a Product for or on behalf
+                of a 1/3 character shall want to make certain that the meant
+                recipient of the order is of the fantastic age to get hold of
+                and view the special certification of the title(s) he/she has
+                ordered/purchased..
               </p>
               <p>
-                18.3 If you are under 13, you may use the website only with
-                involvement of a parent or guardian.
+                18.3 If you are below 13, you may also use the internet site
+                solely with involvement of a mother or father or guardian.
               </p>
               <p>
-                CeX and its affiliates reserve the right to refuse service,
-                terminate accounts, remove or edit content, or cancel orders in
-                their sole discretion or refuse to sell in the store if not
-                accompanied by a parent or guardian.
+                AWC and its associates reserve the proper to refuse service,
+                terminate accounts, put off or edit content, or cancel orders in
+                their sole discretion or refuse to promote in the keep if now
+                not accompanied by way of a guardian or guardian.
               </p>
               <h3>19. Force Majeure</h3>
               <p>
-                CeX shall not be liable for any default due to any Act of God,
-                war, strike, lockout, industrial action, fire, flood, drought,
-                storm or other event beyond the reasonable control of CeX.
+                AWC shall no longer be responsible for any default due to any
+                Act of God, war, strike, lockout, industrial action, fire,
+                flood, drought, storm or different tournament past the practical
+                manipulate of AWC .
               </p>
               <h3>PART - II (Online only)</h3>
               <h3>20. Buying, Selling and Exchange of Products</h3>
               <p>
-                <strong> 20.1 Buying from CeX</strong>
+                <strong> 20.1 Buying from AWC </strong>
               </p>
               <p>
-                20.1.1 Any order placed online will be considered as a binding
-                contract, when, the order will be dispatched by CeX unless it
-                has been cancelled by CeX or the Customer. CeX may cancel the
-                order in case the Product is unavailable from the stock, or
-                proper payment has not been made by the Customer. CeX may also
-                cancel the order if the Customer doesn't meet the eligibility
-                criteria or is in breach of the Terms of Use.
+                20.1.1 Any order positioned on line will be viewed as a binding
+                contract, when, the order will be dispatched with the aid of AWC
+                until it has been cancelled by using AWC or the Customer. AWC
+                can also cancel the order in case the Product is unavailable
+                from the stock, or ideal fee has no longer been made by way of
+                the Customer. AWC may additionally also cancel the order if the
+                Customer does not meet the eligibility standards or is in breach
+                of the Terms of Use.
               </p>
               <p>
                 20.1.2 <strong>Contract cancellation:</strong> An order can be
@@ -499,58 +482,62 @@ function TermsAndConditions(props) {
               </p>
               <p>
                 20.1.3 <strong>Unwanted Products:</strong> As per the distance
-                selling regulations you have until 14 days to return the Product
-                as unwanted. Outside the 14 day period, CeX reserves the right
-                to refuse any refund or exchange for the Products which are not
+                promoting rules you have till 14 days to return the Product as
+                unwanted. Outside the 14 day period, AWC reserves the proper to
+                refuse any refund or change for the Products which are no longer
                 faulty.
               </p>
               <p>
-                20.1.4 <strong>Order Delivery -</strong> CeX is only able to
-                deliver orders to the UK billing address mentioned on your
-                bank/credit card account or to the registered UK address of your
-                PayPal account used for the transaction. CeX is not liable for
-                any missed delivery, due to an incorrect or incomplete address
-                entered by you.
+                20.1.4 <strong>Order Delivery -</strong> AWC is solely capable
+                to supply orders to the UK billing tackle cited on your
+                bank/credit card account or to the registered UK tackle of your
+                PayPal account used for the transaction. AWC is now not
+                dependable for any ignored delivery, due to an unsuitable or
+                incomplete tackle entered via you.
               </p>
               <p>
-                <strong>20.2 Selling to CeX</strong>
+                <strong>20.2 Selling to AWC</strong>
               </p>
               <p>
-                20.2.1 Your obligation is to dispatch the Products that you are
-                selling to CeX in a timely manner. Your Product must be received
-                by CeX at the designated location within ten [10] days of your
-                order being placed. Quoted prices may vary or orders may be
-                cancelled if Products are not received within this period.
+                20.2.1 Your duty is to dispatch the Products that you are
+                promoting to AWC in a well timed manner. Your Product have to be
+                acquired by using AWC at the specified region inside ten [10]
+                days of your order being placed. Quoted expenditures may also
+                range or orders might also be cancelled if Products are no
+                longer acquired inside this period.
               </p>
               <p>
-                20.2.2 All products sent to CeX are made pursuant to a shipment
-                contract. Prior to CeX receiving such products the risk of loss
-                and title for such products remains with the Customer.
+                20.2.2 All merchandise despatched to AWC are made pursuant to a
+                cargo contract. Prior to AWC receiving such merchandise the
+                hazard of loss and title for such merchandise stays with the
+                Customer.
               </p>
               <p>
-                20.2.3 You must ensure that all parts of your order are sent at
-                the same time. Should CeX receive only part of your order, CeX
-                will cancel the Products that have not been received, and
-                process the Products that CeX has received. CeX will not take
-                responsibility for incomplete orders.
+                20.2.3 You have to make sure that all components of your order
+                are despatched at the equal time. Should AWC acquire solely
+                section of your order, AWC will cancel the Products that have
+                now not been received, and procedure the Products that AWC has
+                received. AWC will now not take duty for incomplete orders.
               </p>
               <p>
-                20.2.4 CeX issues payment on the basis of details provided by
-                the Customer and shall not be liable for payment made to wrong
-                account due to incorrect details.
+                20.2.4 AWC problems fee on the foundation of important points
+                furnished by means of the Customer and shall no longer be
+                accountable for charge made to incorrect account due to wrong
+                details.
               </p>
               <p>
-                20.2.5 The value CeX offers for your Products may be reduced
-                upon receipt depending on their condition or quantity.
+                20.2.5 The price AWC provides for your Products may additionally
+                be decreased upon receipt relying on their situation or
+                quantity.
               </p>
               <h3>21. Delivery</h3>
               <p>
-                21.1 Delivery is deemed to take place when CeX hands over the
+                21.1 Delivery is deemed to take vicinity when AWC palms over the
                 Product to the Customer.
               </p>
               <p>
-                21.2 Late delivery of Products does not entitle the Customer to
-                do any of the following:
+                21.2 Late shipping of Products does now not entitle the Customer
+                to do any of the following:
               </p>
               <p>(a) Reject the Products.</p>
               <p>(b) Cancel the order.</p>
@@ -566,49 +553,52 @@ function TermsAndConditions(props) {
                 22.2 Once sent, a tracking number can be supplied on request.
               </p>
               <p>
-                22.3 CeX will not take responsibility for lost or damaged
-                Products among failed Products.
+                22.3 AWC will no longer take accountability for misplaced or
+                broken Products amongst failed Products.
               </p>
               <h3>23. Our Rights</h3>
               <p>
-                CeX reserves the right to Change the Terms of Use from time to
-                time, and your continued use of the website (or any part
-                thereof) following such change shall be deemed to be your
-                acceptance of such change. If you do not agree to any change to
-                the conditions then You must immediately stop using the website.
+                AWC reserves the proper to Change the Terms of Use from time to
+                time, and your persisted use of the internet site (or any phase
+                thereof) following such trade shall be deemed to be your
+                acceptance of such change. If you do now not agree to any
+                exchange to the prerequisites then You need to at once give up
+                the usage of the website.
               </p>
               <h3>24. Third party links</h3>
               <p>
-                CeX shall not be responsible for the contents of any third
-                parties, provided to you by a link on the website or otherwise.
+                AWC shall no longer be accountable for the contents of any 1/3
+                parties, supplied to you through a hyperlink on the internet
+                site or otherwise.
               </p>
               <h3>25. Cookies and other Technologies</h3>
               <p>
                 Kindly refer to our cookie policy{" "}
-                <a href="https://uk.webuy.com/policy/cookies">here</a>
+                <a href="https://awcommunications.co.uk/cookies">here</a>
               </p>
               <h3>Part III (Stores Only)</h3>
               <h3>26. General</h3>
               <p>
-                The contract between CeX and you in respect of the Products
-                comes into existence when your order has been accepted by CeX
+                The contract between AWC and you in admire of the Products comes
+                into existence when your order has been typical by means of AWC
                 (or vice versa) in accordance with these Terms of Use.
               </p>
-              <h3>27. Selling to CeX</h3>
+              <h3>27. Selling to AWC </h3>
               <p>
-                Title of the Products shall pass to CeX following successful
-                testing and a purchase price having been agreed between CeX and
+                Title of the Products shall bypass to AWC following profitable
+                checking out and a buy fee having been agreed between AWC and
                 you.
               </p>
               <h3>28. Testing of Products</h3>
               <p>
-                28.1 While CeX will make every effort to look after Products
-                left by you for test, they are left at your own risk.
+                28.1 While AWC will make each and every effort to seem after
+                Products left by way of you for test, they are left at your very
+                own risk.
               </p>
               <p>
-                28.2 Products that fail test or are rejected by CeX for purchase
-                will be held for 14 days for collection. After 14 days CeX may
-                dispose of them at your expense.
+                28.2 Products that fail check or are rejected via AWC for buy
+                will be held for 14 days for collection. After 14 days AWC may
+                additionally dispose of them at your expense.
               </p>
             </div>
           </div>
