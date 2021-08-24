@@ -1,231 +1,32 @@
 [
     {
-        "id": "B8EOTYC89YTYC589Y",
-        "name": "6G Unlocked 16GB",
+        "id": "WEIPOI27894789",
+        "name": "12pro Max Unlocked",
         "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://gloimg.gbtcdn.com/storage/item/6685860369035210752/15957/d0bf45b4067e.jpg_500x500.jpg",
-        "price": 62,
+        "image": "https://i.ibb.co/vP0qT5v/iphone-12-pro-max-blue-1-300x300.jpg",
+        "price": 185,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "TIWONKLNKLEF84YI76",
-        "name": "6G Unlocked 64GB",
+
+     {
+        "id": "IORHIORUOIEURIONO77676",
+        "name": "12pro Unlocked",
         "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://gloimg.gbtcdn.com/storage/item/6685860369035210752/15957/d0bf45b4067e.jpg_500x500.jpg",
-        "price": 70,
+        "image": "https://i.ibb.co/qp3fm1P/iphone-12-pro-max-1-300x300.jpg",
+        "price": 185,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "YTUIERYIT875",
-        "name": "6+ Unlocked 32GB",
+      {
+        "id": "OEIRIOECIOHICOH868789",
+        "name": "12 Unlocked",
         "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.pinimg.com/originals/48/3c/1b/483c1bfd226d40de63849492d62694b6.png",
-        "price": 100,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "IOTRIOEOI985476945",
-        "name": "6+ Unlocked 128GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.pinimg.com/originals/48/3c/1b/483c1bfd226d40de63849492d62694b6.png",
-        "price": 120,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "IOGIOHIOH968689",
-        "name": "6s Unlocked 32GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://www.nicepng.com/png/detail/42-429741_iphone-6s-32-gb-silver.png",
-        "price": 70,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "IODHFIOHOIOI4UO45452",
-        "name": "6s Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://www.nicepng.com/png/detail/42-429741_iphone-6s-32-gb-silver.png",
-        "price": 80,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "EPORI980985094580",
-        "name": "6S+ Unlocked 32GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP727/SP727-iphone6s-plus-rosegold-select-2015.png",
-        "price": 110,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "YBUERY8BV8ENV8TH8",
-        "name": "6S+ Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP727/SP727-iphone6s-plus-rosegold-select-2015.png",
-        "price": 125,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "UKTI78OY89H9",
-        "name": "7G 32GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://www.wintouchtele.com/wp-content/uploads/2019/05/iphone7.jpg",
-        "price": 105,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "EPHFPJCT095HT",
-        "name": "7+ Unlocked 32GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://www.refurbished.store/cache/images/iphone-7-rose-multiapple_600x600_BGresize_16777215-tj.png",
-        "price": 170,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "CTY98YT89Y4T894Y",
-        "name": "7+ Unlocked 128GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/bzbxwYv/unnamed-1-300x300.jpg",
-        "price": 180,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "B8EOTYC89YTYC589Y",
-        "name": "7G. unlocked 32gb ",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/Jjmrfr9/fec08240e6a4185716b4c39a9e6c4561-300x300.jpg",
-        "price": 105,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "IOFHIOEHGIOHIOGT",
-        "name": "8G Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg",
-        "price": 145,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "FHIOHIO4UCOTUOTU",
-        "name": "8G Unlocked 256GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg",
-        "price": 165,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "EYCOYO4TOI4YTIO4Y3O84",
-        "name": "8+ Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://www.apple.com/newsroom/images/product/iphone/standard/8plus_and_8_glass_back_big.jpg.large.jpg",
-        "price": 230,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "IOEFIOEFUOIUO76",
-        "name": "8+ Unlocked 256GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://www.apple.com/newsroom/images/product/iphone/standard/8plus_and_8_glass_back_big.jpg.large.jpg",
-        "price": 255,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "PIIRPOIEP497589749",
-        "name": "X Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/CKRD5wd/apple-iphone-x-pakistan-priceoye-9k67h-1-300x300.jpg",
-        "price": 250,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "OERIOUPOUR4897",
-        "name": "Xs Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/QQ1z4KW/apple-iphone-xs-pakistan-priceoye-gvoxv-1-300x300.jpg",
-        "price": 265,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "EIOURPOEPU2709850948",
-        "name": "Xs Unlocked 256GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/QQ1z4KW/apple-iphone-xs-pakistan-priceoye-gvoxv-1-300x300.jpg",
-        "price": 300,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "ERIOUERVNLRENL384689",
-        "name": "Xr Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/pKWDTXC/f106c814-776ebf3dfd2b6c93af4f6b750a7404c5ashscbhasdggqeiaujcbdsvs-300x300-1.jpg",
-        "price": 260,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "APOIPOEIRPOI68786",
-        "name": "Xsmax Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/7S18PP2/Swappie-Xs-Gold-1-1-1-600x600-1-300x300.png",
-        "price": 350,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "UIYEUIRYUIEY8746872",
-        "name": "11 Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/cF3gPt8/Apple-i-Phone-11-300x300.jpg",
-        "price": 400,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "EPOIIIC87678",
-        "name": "11pro Unlocked 64GB",
-        "subCat": "iPhones",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/SxmNB07/iphone11proharmaa-300x300.jpg",
-        "price": 490,
+        "image": "https://i.ibb.co/qp3fm1P/iphone-12-pro-max-1-300x300.jpg",
+        "price": 185,
         "rating": 4.6,
         "quantity": 50
     },
@@ -239,296 +40,511 @@
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "OEIRIOECIOHICOH868789",
-        "name": "12 Unlocked",
+     {
+        "id": "EPOIIIC87678",
+        "name": "11pro Unlocked 64GB",
         "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.ibb.co/qp3fm1P/iphone-12-pro-max-1-300x300.jpg",
-        "price": 185,
+        "image": "https://i.ibb.co/SxmNB07/iphone11proharmaa-300x300.jpg",
+        "price": 490,
         "rating": 4.6,
         "quantity": 50
     },
     {
-        "id": "IORHIORUOIEURIONO77676",
-        "name": "12pro Unlocked",
+        "id": "UIYEUIRYUIEY8746872",
+        "name": "11 Unlocked 64GB",
         "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.ibb.co/qp3fm1P/iphone-12-pro-max-1-300x300.jpg",
-        "price": 185,
+        "image": "https://i.ibb.co/cF3gPt8/Apple-i-Phone-11-300x300.jpg",
+        "price": 400,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "WEIPOI27894789",
-        "name": "12pro Max Unlocked",
+  {
+        "id": "APOIPOEIRPOI68786",
+        "name": "Xsmax Unlocked 64GB",
         "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.ibb.co/vP0qT5v/iphone-12-pro-max-blue-1-300x300.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "W89728957FHUIEHFIUH",
-        "name": "S8 Unlocked ",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/s5JTvDf/s8.jpg",
-        "price": 140,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "W89728957FHUIEHFIUH",
-        "name": "S8 Unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/s5JTvDf/s8.jpg",
-        "price": 140,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "9EURPORUPOEURO",
-        "name": "S8+ Unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/xg83PbP/s8.jpg",
-        "price": 175,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "348DFWDUDBICIO",
-        "name": "S9 Unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/hL0W0ZS/s9.png",
-        "price": 160,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897ICY8CTPEPRYOHCDBICIO",
-        "name": "S9+ Unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/jJxKVkd/samsung-galaxy-s9-plus-blue.jpg",
-        "price": 180,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897ICY8894UIBJKCDBICIO",
-        "name": "S10 Unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/jfbQL88/samsung-galaxy-s10-5g-pakistan-priceoye-6qtpm-300x300.jpg",
-        "price": 260,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897ICYIOTHOICIO",
-        "name": "S10+ unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/WzZVQvZ/Samsung-Galaxy-Note-10-Plus-1-500x500-1-300x300.jpg",
-        "price": 300,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "OY4TOI4C4UIBJKCDBICIO",
-        "name": "S10 5G unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/jfbQL88/samsung-galaxy-s10-5g-pakistan-priceoye-6qtpm-300x300.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34oer79foiBICIO",
-        "name": "S20 unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/02ZxGpW/Samsung-Galaxy-S20-5-G-500x500-1-300x300.jpg",
-        "price": 440,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34889570967O",
-        "name": "S20 Ultra 5G Unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/TgGRz4y/galaxy-s20-ultra-cosmic-gray-300x300.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897ICY8CURIOHOI4BICIO",
-        "name": "S21 unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/w6MQFC0/samsung-galaxy-s21-5g-sm-g9910-300x300.jpg",
-        "price": 650,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "3489w4789479IO",
-        "name": "S21 ultra unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/qW2dt77/Samsung-Galaxy-S21-Ultra-5-G-500x500-1-300x300.jpg",
-        "price": 950,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897CDBICIO",
-        "name": "Note 10 unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/TKmbHw0/Samsung-Galaxy-Note-10-500x500-2-300x300.jpg",
-        "price": 320,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "IOHIOEHFOJKCDBICIO",
-        "name": "Note 10 5G unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://i.ibb.co/WzZVQvZ/Samsung-Galaxy-Note-10-Plus-1-500x500-1-300x300.jpg",
+        "image": "https://i.ibb.co/7S18PP2/Swappie-Xs-Gold-1-1-1-600x600-1-300x300.png",
         "price": 350,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "34FIOJKCDBICIO",
-        "name": "Note 20 unlocked",
-        "subCat": "Samsung",
+     {
+        "id": "ERIOUERVNLRENL384689",
+        "name": "Xr Unlocked 64GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.ibb.co/3053PFM/Samsung-Galaxy-Note-20-300x300-1.png",
-        "price": 185,
+        "image": "https://i.ibb.co/pKWDTXC/f106c814-776ebf3dfd2b6c93af4f6b750a7404c5ashscbhasdggqeiaujcbdsvs-300x300-1.jpg",
+        "price": 260,
+        "rating": 4.6,
+        "quantity": 50
+    },
+     {
+        "id": "EIOURPOEPU2709850948",
+        "name": "Xs Unlocked 256GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://i.ibb.co/QQ1z4KW/apple-iphone-xs-pakistan-priceoye-gvoxv-1-300x300.jpg",
+        "price": 300,
+        "rating": 4.6,
+        "quantity": 50
+    },
+  {
+        "id": "OERIOUPOUR4897",
+        "name": "Xs Unlocked 64GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://i.ibb.co/QQ1z4KW/apple-iphone-xs-pakistan-priceoye-gvoxv-1-300x300.jpg",
+        "price": 265,
+        "rating": 4.6,
+        "quantity": 50
+    },
+   {
+        "id": "PIIRPOIEP497589749",
+        "name": "X Unlocked 64GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://i.ibb.co/CKRD5wd/apple-iphone-x-pakistan-priceoye-9k67h-1-300x300.jpg",
+        "price": 250,
         "rating": 4.6,
         "quantity": 50
     },
     {
-        "id": "34897IOHEFIOKCDBICIO",
-        "name": "Note 20 ultra unlocked",
-        "subCat": "Samsung",
+        "id": "IOEFIOEFUOIUO76",
+        "name": "8+ Unlocked 256GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.ibb.co/gVGzGXF/samsung-galaxy-note-20-5g-8gb-128gb-dual-iv4q35-300x300.jpg",
-        "price": 830,
+        "image": "https://www.apple.com/newsroom/images/product/iphone/standard/8plus_and_8_glass_back_big.jpg.large.jpg",
+        "price": 255,
+        "rating": 4.6,
+        "quantity": 50
+    },
+     {
+        "id": "EYCOYO4TOI4YTIO4Y3O84",
+        "name": "8+ Unlocked 64GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://www.apple.com/newsroom/images/product/iphone/standard/8plus_and_8_glass_back_big.jpg.large.jpg",
+        "price": 230,
+        "rating": 4.6,
+        "quantity": 50
+    },
+       {
+        "id": "FHIOHIO4UCOTUOTU",
+        "name": "8G Unlocked 256GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg",
+        "price": 165,
+        "rating": 4.6,
+        "quantity": 50
+    },
+
+      {
+        "id": "IOFHIOEHGIOHIOGT",
+        "name": "8G Unlocked 64GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg",
+        "price": 145,
+        "rating": 4.6,
+        "quantity": 50
+    },
+ 
+    {
+        "id": "B8EOTYC89YTYC589Y",
+        "name": "7G. unlocked 32gb ",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://i.ibb.co/Jjmrfr9/fec08240e6a4185716b4c39a9e6c4561-300x300.jpg",
+        "price": 105,
+        "rating": 4.6,
+        "quantity": 50
+    },
+   {
+        "id": "CTY98YT89Y4T894Y",
+        "name": "7+ Unlocked 128GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://i.ibb.co/bzbxwYv/unnamed-1-300x300.jpg",
+        "price": 180,
+        "rating": 4.6,
+        "quantity": 50
+    },
+   {
+        "id": "EPHFPJCT095HT",
+        "name": "7+ Unlocked 32GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://www.refurbished.store/cache/images/iphone-7-rose-multiapple_600x600_BGresize_16777215-tj.png",
+        "price": 170,
+        "rating": 4.6,
+        "quantity": 50
+    },
+      {
+        "id": "UKTI78OY89H9",
+        "name": "7G 32GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://www.wintouchtele.com/wp-content/uploads/2019/05/iphone7.jpg",
+        "price": 105,
+        "rating": 4.6,
+        "quantity": 50
+    },
+  
+   {
+        "id": "YBUERY8BV8ENV8TH8",
+        "name": "6S+ Unlocked 64GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP727/SP727-iphone6s-plus-rosegold-select-2015.png",
+        "price": 125,
         "rating": 4.6,
         "quantity": 50
     },
     {
-        "id": "34897ICY8CTUK",
-        "name": "A01 core unlocked",
-        "subCat": "Samsung",
+        "id": "EPORI980985094580",
+        "name": "6S+ Unlocked 32GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a01core-sm-a013.jpg",
-        "price": 185,
+        "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP727/SP727-iphone6s-plus-rosegold-select-2015.png",
+        "price": 110,
         "rating": 4.6,
         "quantity": 50
     },
+       {
+        "id": "IODHFIOHOIOI4UO45452",
+        "name": "6s Unlocked 64GB",
+        "subCat": "iPhones",
+        "supCat": "Phones",
+        "image": "https://www.nicepng.com/png/detail/42-429741_iphone-6s-32-gb-silver.png",
+        "price": 80,
+        "rating": 4.6,
+        "quantity": 50
+    },
+ 
     {
-        "id": "348956DFFCIO",
-        "name": "A02s unlocked",
-        "subCat": "Samsung",
+        "id": "IOGIOHIOH968689",
+        "name": "6s Unlocked 32GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://www.gizmochina.com/wp-content/uploads/2020/11/Samsung-Galaxy-A02s-500x500.jpg",
-        "price": 185,
+        "image": "https://www.nicepng.com/png/detail/42-429741_iphone-6s-32-gb-silver.png",
+        "price": 70,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "34897ICY8IOFHIOCIO",
-        "name": "A10s unlocked",
-        "subCat": "Samsung",
+     {
+        "id": "IOTRIOEOI985476945",
+        "name": "6+ Unlocked 128GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://i.gadgets360cdn.com/products/large/1551336239_635_galaxya10_db.jpg",
-        "price": 185,
+        "image": "https://i.pinimg.com/originals/48/3c/1b/483c1bfd226d40de63849492d62694b6.png",
+        "price": 120,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "484589LC4C4UIBJKCDBICIO",
-        "name": "A11 unlocked",
-        "subCat": "Samsung",
+ 
+       {
+        "id": "YTUIERYIT875",
+        "name": "6+ Unlocked 32GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://www.gizmochina.com/wp-content/uploads/2020/03/Samsung-Galaxy-A11.jpg",
-        "price": 185,
+        "image": "https://i.pinimg.com/originals/48/3c/1b/483c1bfd226d40de63849492d62694b6.png",
+        "price": 100,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "597JIOWONIOCNIOTLC4C4UIBJKCIO",
-        "name": "A12 5G unlocked",
-        "subCat": "Samsung",
+   {
+        "id": "TIWONKLNKLEF84YI76",
+        "name": "6G Unlocked 64GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://www.gizmochina.com/wp-content/uploads/2020/03/Samsung-Galaxy-A11.jpg",
-        "price": 185,
+        "image": "https://gloimg.gbtcdn.com/storage/item/6685860369035210752/15957/d0bf45b4067e.jpg_500x500.jpg",
+        "price": 70,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "34897ICY8LC4C4UIBJKCDBICIO",
-        "name": "A21s unlocked",
-        "subCat": "Samsung",
+   {
+        "id": "B8EOTYC89YTYC589Y",
+        "name": "6G Unlocked 16GB",
+        "subCat": "iPhones",
         "supCat": "Phones",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a21-r.jpg",
-        "price": 185,
+        "image": "https://gloimg.gbtcdn.com/storage/item/6685860369035210752/15957/d0bf45b4067e.jpg_500x500.jpg",
+        "price": 62,
         "rating": 4.6,
         "quantity": 50
     },
-    {
-        "id": "348TV58C894597JIOWONIOCNIOTLC4UIBIO",
-        "name": "A31 unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://www.gizmochina.com/wp-content/uploads/2020/03/Samsung-Galaxy-A31.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34BJKCDBICIO",
-        "name": "A42 5G unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a42-5g.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897DBICIO",
-        "name": "A51 unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://uk.static.webuy.com/product_images/Phones/Phones iPhone/SSAMA505D4128GBLUNLB_l.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
-    {
-        "id": "34897ICY8CTIOTLC4C4UIBJKCDBICIO",
-        "name": "A71 unlocked",
-        "subCat": "Samsung",
-        "supCat": "Phones",
-        "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a71-1.jpg",
-        "price": 185,
-        "rating": 4.6,
-        "quantity": 50
-    },
+   
+   
+ {
+    "id": "3489w4789479IO",
+    "name": "S21 ultra unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/qW2dt77/Samsung-Galaxy-S21-Ultra-5-G-500x500-1-300x300.jpg",
+    "price": 950,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+ {
+    "id": "34897ICY8CURIOHOI4BICIO",
+    "name": "S21 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/w6MQFC0/samsung-galaxy-s21-5g-sm-g9910-300x300.jpg",
+    "price": 650,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "34889570967O",
+    "name": "S20 Ultra 5G Unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/TgGRz4y/galaxy-s20-ultra-cosmic-gray-300x300.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+   {
+    "id": "34oer79foiBICIO",
+    "name": "S20 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/02ZxGpW/Samsung-Galaxy-S20-5-G-500x500-1-300x300.jpg",
+    "price": 440,
+    "rating": 4.6,
+    "quantity": 50
+},
+ {
+    "id": "OY4TOI4C4UIBJKCDBICIO",
+    "name": "S10 5G unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/jfbQL88/samsung-galaxy-s10-5g-pakistan-priceoye-6qtpm-300x300.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "34897ICYIOTHOICIO",
+    "name": "S10+ unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/WzZVQvZ/Samsung-Galaxy-Note-10-Plus-1-500x500-1-300x300.jpg",
+    "price": 300,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "34897ICY8894UIBJKCDBICIO",
+    "name": "S10 Unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/jfbQL88/samsung-galaxy-s10-5g-pakistan-priceoye-6qtpm-300x300.jpg",
+    "price": 260,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "34897ICY8CTPEPRYOHCDBICIO",
+    "name": "S9+ Unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/jJxKVkd/samsung-galaxy-s9-plus-blue.jpg",
+    "price": 180,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "348DFWDUDBICIO",
+    "name": "S9 Unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/hL0W0ZS/s9.png",
+    "price": 160,
+    "rating": 4.6,
+    "quantity": 50
+},
+ {
+    "id": "9EURPORUPOEURO",
+    "name": "S8+ Unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/xg83PbP/s8.jpg",
+    "price": 175,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+ {
+    "id": "W89728957FHUIEHFIUH",
+    "name": "S8 Unlocked ",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/s5JTvDf/s8.jpg",
+    "price": 140,
+    "rating": 4.6,
+    "quantity": 50
+},
+   
+   
+
+
+
+    
+{
+    "id": "34897IOHEFIOKCDBICIO",
+    "name": "Note 20 ultra unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/gVGzGXF/samsung-galaxy-note-20-5g-8gb-128gb-dual-iv4q35-300x300.jpg",
+    "price": 830,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "34FIOJKCDBICIO",
+    "name": "Note 20 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/3053PFM/Samsung-Galaxy-Note-20-300x300-1.png",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+ {
+    "id": "IOHIOEHFOJKCDBICIO",
+    "name": "Note 10 5G unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/WzZVQvZ/Samsung-Galaxy-Note-10-Plus-1-500x500-1-300x300.jpg",
+    "price": 350,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+{
+    "id": "34897CDBICIO",
+    "name": "Note 10 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.ibb.co/TKmbHw0/Samsung-Galaxy-Note-10-500x500-2-300x300.jpg",
+    "price": 320,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+{
+    "id": "34897ICY8CTIOTLC4C4UIBJKCDBICIO",
+    "name": "A71 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a71-1.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+ {
+    "id": "34897DBICIO",
+    "name": "A51 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a51-sm-a515-1.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "34BJKCDBICIO",
+    "name": "A42 5G unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a42-5g.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "348TV58C894597JIOWONIOCNIOTLC4UIBIO",
+    "name": "A31 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://www.gizmochina.com/wp-content/uploads/2020/03/Samsung-Galaxy-A31.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+ {
+    "id": "34897ICY8LC4C4UIBJKCDBICIO",
+    "name": "A21s unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a21-r.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+  {
+    "id": "597JIOWONIOCNIOTLC4C4UIBJKCIO",
+    "name": "A12 5G unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://www.gizmochina.com/wp-content/uploads/2020/03/Samsung-Galaxy-A11.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+{
+    "id": "484589LC4C4UIBJKCDBICIO",
+    "name": "A11 unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://www.gizmochina.com/wp-content/uploads/2020/03/Samsung-Galaxy-A11.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+   {
+    "id": "34897ICY8IOFHIOCIO",
+    "name": "A10s unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://i.gadgets360cdn.com/products/large/1551336239_635_galaxya10_db.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+ {
+    "id": "348956DFFCIO",
+    "name": "A02s unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://www.gizmochina.com/wp-content/uploads/2020/11/Samsung-Galaxy-A02s-500x500.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+{
+    "id": "34897ICY8CTUK",
+    "name": "A01 core unlocked",
+    "subCat": "Samsung",
+    "supCat": "Phones",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a01core-sm-a013.jpg",
+    "price": 185,
+    "rating": 4.6,
+    "quantity": 50
+},
+
+ 
+   
+
     {
         "id": "SAPPI732GBLUNLB",
         "name": "Apple iPhone 7 32GB Black, Unlocked B",
