@@ -148,13 +148,6 @@ const UnlockingPage = () => {
                 <Nav.Link
                   style={{ color: "black" }}
                   className="custom-link"
-                  href="#deets"
-                >
-                  Customer Details
-                </Nav.Link>
-                <Nav.Link
-                  style={{ color: "black" }}
-                  className="custom-link"
                   href="/unlocking"
                 >
                   Unlocking
@@ -165,13 +158,6 @@ const UnlockingPage = () => {
                   href="/repair-service"
                 >
                   Repair
-                </Nav.Link>
-                <Nav.Link
-                  style={{ color: "black" }}
-                  className="custom-link"
-                  href="#deets"
-                >
-                  Support
                 </Nav.Link>
               </Nav>
               <Nav className="">

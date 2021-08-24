@@ -156,13 +156,6 @@ function Basket(props) {
                 <Nav.Link
                   style={{ color: "black" }}
                   className="custom-link"
-                  href="#deets"
-                >
-                  Customer Details
-                </Nav.Link>
-                <Nav.Link
-                  style={{ color: "black" }}
-                  className="custom-link"
                   href="/unlocking"
                 >
                   Unlocking
@@ -173,13 +166,6 @@ function Basket(props) {
                   href="#deets"
                 >
                   Repair
-                </Nav.Link>
-                <Nav.Link
-                  style={{ color: "black" }}
-                  className="custom-link"
-                  href="#deets"
-                >
-                  Support
                 </Nav.Link>
               </Nav>
               <Nav className="">
