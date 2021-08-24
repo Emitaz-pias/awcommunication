@@ -4,16 +4,16 @@ import image2 from "../img/aboutUs/2nd image foraboout us page.png";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="container">
       <div className="headingDiv mt-3">
         <h1 className="text-center text-secondary">About AWC</h1>
-        <h3 className="text-center text-success">
+        <h3 className="text-center text-primary">
           Our organization really focuses on individuals and their tech gadgets.
           <br />
           This is the explanation our clients precedes whatever else.
         </h3>
-        <div className="d-flex mt-5 pb-5 justify-content-center align-items-center text-secondary">
-          <p style={{ fontSize: "1.2em" }} className="me-4">
+        <div className="d-flex row flex-wrap-reverse mt-5 pb-5 justify-content-center align-items-center text-secondary">
+          <p style={{ fontSize: "1.2em" }} className="me-4 col-md-6">
             AWC was begun in 1976 to offer normalized at this point reasonable
             fix administration for cell phones and tablets. Today AWC is
             continuously turning into UKbiggest and most trusted cell phone and
@@ -35,11 +35,19 @@ const AboutUs = () => {
             keep going long. We ensure that every one of the parts utilized for
             fixing are fresh out of the box new and of the greatest quality.
           </p>
-          <img className="ms-2 img-fluid" src={image1} alt="mobile reapir" />
+          <img
+            className="ms-2 col-md-5 img-fluid"
+            src={image1}
+            alt="mobile reapir"
+          />
         </div>
-        <div className="d-flex mt-5 pb-5 justify-content-center align-items-center text-secondary">
-          <img className="me-4 img-fluid" src={image2} alt="mobile reapir" />
-          <p style={{ fontSize: "1.3em" }} className="ms-2">
+        <div className="d-flex row mt-5 pb-5 justify-content-center align-items-center text-secondary">
+          <img
+            className="me-4 col-md-5 img-fluid"
+            src={image2}
+            alt="mobile reapir"
+          />
+          <p style={{ fontSize: "1.3em" }} className="ms-2 col-md-6">
             Electronics Repair And Beyond WE’RE THE ULTIMATE DESTINATION FOR ALL
             THINGS MOBILE. With a wide range of services and multiple locations,
             we have established ourselves as an industry leader and a
