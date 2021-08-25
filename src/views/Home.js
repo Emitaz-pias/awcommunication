@@ -11,12 +11,16 @@ function Home(props) {
   const [gaming, setGaming] = useState([]);
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
+
   const [AP, setAP] = useState([]);
+  const [F, setF] = useState([]);
+  
   const [loadRows, setLoadRows] = useState(10);
   const [cat, setCat] = useState("all");
   const [subcat, setSubcat] = useState("");
   const [search, setSearch] = useState("");
   let query = useQuery();
+
   useEffect(() => {
     if (query.get("cat") === "phone") {
       setCat(query.get("cat"));
@@ -57,11 +61,12 @@ function Home(props) {
       });
   }, []);
 
-  const [F, setF] = useState([]);
   useEffect(() => {
     setAP([...phone, ...gaming, ...electronic]);
+
     setF(
       [...phone, ...gaming, ...electronic].filter((P) => {
+        console.log(P);
         return (
           P.name.toLowerCase().includes(search.toLowerCase()) ||
           P.supCat.toLowerCase().includes(search.toLowerCase()) ||
@@ -96,11 +101,11 @@ function Home(props) {
             return cat === "all" ? (
               <>
                 <ProductCard key={"phone[" + i + "]"} info={phone[i]} />
-                <ProductCard key={"gaming[" + i + "]"} info={gaming[i]} />
                 <ProductCard
                   key={"electronic[" + i + "]"}
                   info={electronic[i]}
                 />
+                <ProductCard key={"gaming[" + i + "]"} info={gaming[i]} />
               </>
             ) : cat === "phone" ? (
               <ProductCard key={"phone[" + i + "]"} info={phone[i]} />
@@ -117,6 +122,7 @@ function Home(props) {
           onClick={() => {
             setLoadRows(loadRows + 10);
           }}
+          href
           id="showmoreresult"
         >
           Show more products

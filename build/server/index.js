@@ -1,7 +1,8 @@
 const cors = require("cors");
 const express = require("express");
-const stripe = require("stripe")("STRIPE_SECRET_KEY");
-const uuid = require("uuid/v4");
+require("dotenv").config();
+const stripe = require("stripe")(`${process.env.STRIPE_SECRET_KEY}`);
+const uuid = require("uuid");
 
 const app = express();
 
@@ -58,4 +59,4 @@ app.post("/checkout", async (req, res) => {
   res.json({ error, status });
 });
 
-app.listen(8080);
+app.listen(8080, console.log("app is alive"));

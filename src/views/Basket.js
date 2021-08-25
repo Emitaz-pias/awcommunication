@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./../scss/Basket.scss";
 import "../components/heades.css";
+import StripePayment from "./StripePayment";
+import CheckoutForm from "./CheckoutForm";
 
 function Basket(props) {
   const [TDATA, setTDATA] = useState({
@@ -105,6 +107,7 @@ function Basket(props) {
       });
     }
   };
+  console.log("bakset product", TDATA);
 
   const buyProduct = (e) => {
     if (TDATA.buy.includes(e.target.getAttribute("productid"))) {
@@ -326,7 +329,7 @@ function Basket(props) {
                       </tbody>
                     </table>
                   </div>
-                  <div className="cex_continueBar">
+                  {/* <div className="cex_continueBar border border-danger">
                     <a href="/" className="whtBtn floatLeft">
                       Back
                     </a>
@@ -338,12 +341,14 @@ function Basket(props) {
                       <span className="basketIcons" />
                       PAY NOW
                     </a>
+
                     <span className="tooltiptext">
                       To make Pay Now button enable please answer the question
                       above.
                     </span>
                     <div className="clear" />
-                  </div>
+                  </div> */}
+                  <CheckoutForm product={TDATA} />
                   <div />
                 </div>
                 <div className="ckoutflt-Right">
