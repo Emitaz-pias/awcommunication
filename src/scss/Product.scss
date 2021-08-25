@@ -948,7 +948,7 @@
       }
     }
     .svlpro-det {
-      right: 25px !important;
+      right: 0px !important;
     }
   }
   @media only screen and (max-width: 1024px) {
@@ -959,6 +959,7 @@
   @media only screen and (max-width: 1131px) {
     .t058-badge-container.t058-pdp {
       width: 95% !important;
+      border: 2px solid red;
     }
   }
   @media only screen and (min-width: 1132px) {
@@ -968,8 +969,6 @@
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .t058-badge-container {
-      position: absolute !important;
-      top: 0 !important;
       position: absolute !important;
       top: 0 !important;
     }

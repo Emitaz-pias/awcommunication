@@ -522,7 +522,7 @@
     padding-top: 285px;
   }
   .sellBasketBottom {
-    background: linear-gradient(90deg, #215188 15%, #1053A2 45%);
+    background: linear-gradient(90deg, #215188 15%, #1053a2 45%);
     display: block;
     width: 100%;
     font-size: 0;
@@ -533,7 +533,11 @@
     width: 100%;
     font-size: 0;
     height: 50px;
-    background: -webkit-linear-gradient(90deg, #3e79bd 15%, hsl(212, 67%, 39%) 45%)
+    background: -webkit-linear-gradient(
+        90deg,
+        #3e79bd 15%,
+        hsl(212, 67%, 39%) 45%
+      )
       no-repeat;
   }
   td.basketTableCellLnk {

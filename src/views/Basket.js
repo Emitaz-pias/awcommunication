@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./../scss/Basket.scss";
 import "../components/heades.css";
-import StripePayment from "./StripePayment";
-import CheckoutForm from "./CheckoutForm";
+import StripePayment from "../components/Stripe/StripePayment";
 
 function Basket(props) {
   const [TDATA, setTDATA] = useState({
@@ -348,7 +347,10 @@ function Basket(props) {
                     </span>
                     <div className="clear" />
                   </div> */}
-                  <CheckoutForm product={TDATA} />
+                  {console.log("tdata", TDATA.buy)}
+                  <StripePayment
+                    product={{ price: ST + SC, product: TDATA.buy }}
+                  />
                   <div />
                 </div>
                 <div className="ckoutflt-Right">
