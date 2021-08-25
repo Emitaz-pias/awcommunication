@@ -7,14 +7,17 @@ function useQuery() {
   return new URLSearchParams(useLocation().search);
 }
 
-function Home(props) {
+function Home() {
   const [gaming, setGaming] = useState([]);
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
 
   const [AP, setAP] = useState([]);
   const [F, setF] = useState([]);
-  
+
+  console.log("ap is ", AP);
+  console.log("F is ", F);
+
   const [loadRows, setLoadRows] = useState(10);
   const [cat, setCat] = useState("all");
   const [subcat, setSubcat] = useState("");
@@ -62,11 +65,10 @@ function Home(props) {
   }, []);
 
   useEffect(() => {
-    setAP([...phone, ...gaming, ...electronic]);
+    setAP([...phone, ...electronic, ...gaming]);
 
     setF(
-      [...phone, ...gaming, ...electronic].filter((P) => {
-        console.log(P);
+      [...phone, ...electronic, ...gaming].filter((P) => {
         return (
           P.name.toLowerCase().includes(search.toLowerCase()) ||
           P.supCat.toLowerCase().includes(search.toLowerCase()) ||
@@ -84,7 +86,7 @@ function Home(props) {
             return <ProductCard key={i} info={info} />;
           })
         : subcat !== ""
-        ? [...phone, ...gaming, ...electronic]
+        ? [...phone, ...electronic, ...gaming]
             .filter((P) => {
               return (
                 P.subCat
@@ -97,15 +99,11 @@ function Home(props) {
             .map((info, i) => {
               return <ProductCard key={i} info={info} />;
             })
-        : gaming.slice(0, loadRows).map((info, i) => {
+        : F.slice(0, loadRows).map((product, i) => {
+            console.log("info is", i);
             return cat === "all" ? (
               <>
-                <ProductCard key={"phone[" + i + "]"} info={phone[i]} />
-                <ProductCard
-                  key={"electronic[" + i + "]"}
-                  info={electronic[i]}
-                />
-                <ProductCard key={"gaming[" + i + "]"} info={gaming[i]} />
+                <ProductCard key={i} product={product} />
               </>
             ) : cat === "phone" ? (
               <ProductCard key={"phone[" + i + "]"} info={phone[i]} />
@@ -120,7 +118,7 @@ function Home(props) {
       <div id="showmore">
         <a
           onClick={() => {
-            setLoadRows(loadRows + 10);
+            setLoadRows(loadRows + 20);
           }}
           href
           id="showmoreresult"

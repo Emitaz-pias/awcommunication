@@ -16,12 +16,11 @@ function ProductCard(props) {
     rating: "",
     quantity: "",
   });
-
   useEffect(() => {
-    if (props.info) {
-      setData(props.info);
+    if (props.product) {
+      setData(props.product);
     }
-  }, [props.info]);
+  }, [props.product]);
 
   const saveProduct = (e) => {
     if (!TDATA.saved.includes(e.target.getAttribute("productid"))) {
