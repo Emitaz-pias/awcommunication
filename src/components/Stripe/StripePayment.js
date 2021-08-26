@@ -7,7 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 toast.configure();
 const StripePayment = ({ product }) => {
-  console.log(product.price);
   async function handleToken(token, adress) {
     const response = await axios.post(
       "https://awcserver.herokuapp.com/checkout",

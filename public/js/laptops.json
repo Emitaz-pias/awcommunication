@@ -1,10 +1,125 @@
 [ {
-    "id": "",
-    "name": "Apple | Macbook Air (2020) - 13 i3 256GB with Touch ID",
+    "id": "a",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - M1, 256 GB SSD, Space Grey",
     "subCat": "Mackbooks",
     "supCat": "Laptops",
-    "image": "https://uk.static.webuy.com/product_images/Electronics/Headphones/0190198001733_l.jpg",
-    "price": 12,
+    "image": "https://brain-images-ssl.cdn.dixons.com/3/5/10207153/g_10207153.jpg",
+    "price":1167.87 ,
     "rating": 4.8,
     "quantity": 50
-}]
+},
+{
+    "id": "b",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - M1, 512 GB SSD, Space Grey",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/3/5/10207153/g_10207153.jpg",
+    "price":1379.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+
+{
+    "id": "c",
+    "name": "APPLE MacBook Pro 16'' (2019) - Intel® Core™ i7, 512 GB, Silver",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/8/7/10202778/g_10202778.jpg",
+    "price":2129.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+
+{
+    "id": "d",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - Intel® Core™ i5, 512 GB SSD, Space Grey",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/3/5/10207153/g_10207153.jpg",
+    "price":1549.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+
+{
+    "id": "e",
+    "name": "APPLE MacBook Pro 16'' (2019) - Intel® Core™ i9, 1 TB, Silver",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/7/7/10202777/g_10202777.jpg",
+    "price":2470.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+{
+    "id": "f",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - M1, 512 GB SSD, Silver",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/7/0/10216307/g_10216307.jpg",
+    "price":1358.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+{
+    "id": "g",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - M1, 256 GB SSD, Silver",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/6/0/10216306/g_10216306.jpg",
+    "price":1187.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+{
+    "id": "h",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - Intel® Core™ i5, 512 GB SSD, Silver",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/0/6/10207160/g_10207160.jpg",
+    "price":1555.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+{
+    "id": "i",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - Intel® Core™ i5, 1 TB SSD, Silver",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/2/5/10207152/g_10207152.jpg",
+    "price":1784.97,
+    "rating": 4.8,
+    "quantity": 50
+},
+
+{
+    "id": "j",
+    "name": "APPLE MacBook Pro 16'' (2019) - Intel® Core™ i9, 1 TB, Space Grey",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/7/7/10202777/g_10202777.jpg",
+    "price":2470.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+{
+    "id": "k",
+    "name": "APPLE MacBook Pro 16'' (2019) - Intel® Core™ i7, 512 GB, Space Grey",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/7/7/10202777/g_10202777.jpg",
+    "price":2148.00,
+    "rating": 4.8,
+    "quantity": 50
+},
+{
+    "id": "l",
+    "name": "APPLE MacBook Pro 13.3'' (2020) - Intel® Core™ i5, 1 TB SSD, Space Grey",
+    "subCat": "Mackbooks",
+    "supCat": "Laptops",
+    "image": "https://brain-images-ssl.cdn.dixons.com/0/5/10207150/g_10207150.jpg",
+    "price":1784.97,
+    "rating": 4.8,
+    "quantity": 50
+}
+]

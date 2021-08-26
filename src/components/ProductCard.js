@@ -22,6 +22,10 @@ function ProductCard(props) {
     }
   }, [props.product]);
 
+  const setCart = (product) => {
+    localStorage.setItem("cart", product);
+  };
+
   const saveProduct = (e) => {
     if (!TDATA.saved.includes(e.target.getAttribute("productid"))) {
       localStorage.setItem("saved", [

@@ -11,6 +11,7 @@ function Home() {
   const [gaming, setGaming] = useState([]);
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
+  const [laptops, setLaptops] = useState([]);
 
   const [AP, setAP] = useState([]);
   const [F, setF] = useState([]);
@@ -27,6 +28,8 @@ function Home() {
     } else if (query.get("cat") === "gaming") {
       setCat(query.get("cat"));
     } else if (query.get("cat") === "electronic") {
+      setCat(query.get("cat"));
+    } else if (query.get("cat") === "laptops") {
       setCat(query.get("cat"));
     }
 
@@ -60,13 +63,21 @@ function Home() {
       .then(function (data) {
         setPhone(data);
       });
+
+    fetch("js/laptops.json")
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        setLaptops(data);
+      });
   }, []);
 
   useEffect(() => {
-    setAP([...phone, ...electronic, ...gaming]);
+    setAP([...laptops, ...phone, ...electronic, ...gaming]);
 
     setF(
-      [...phone, ...electronic, ...gaming].filter((P) => {
+      [...laptops, ...phone, ...electronic, ...gaming].filter((P) => {
         return (
           P.name.toLowerCase().includes(search.toLowerCase()) ||
           P.supCat.toLowerCase().includes(search.toLowerCase()) ||
@@ -75,7 +86,7 @@ function Home() {
         );
       })
     );
-  }, [phone, electronic, gaming]);
+  }, [laptops, phone, electronic, gaming]);
 
   return (
     <div className="__Home">
@@ -84,7 +95,7 @@ function Home() {
             return <ProductCard key={i} info={info} />;
           })
         : subcat !== ""
-        ? [...phone, ...electronic, ...gaming]
+        ? [...laptops, ...phone, ...electronic, ...gaming]
             .filter((P) => {
               return (
                 P.subCat
@@ -104,6 +115,8 @@ function Home() {
               </>
             ) : cat === "phone" ? (
               <ProductCard key={"phone[" + i + "]"} info={phone[i]} />
+            ) : cat === "laptops" ? (
+              <ProductCard key={"laptops[" + i + "]"} info={laptops[i]} />
             ) : cat === "electronic" ? (
               <ProductCard key={"electronic[" + i + "]"} info={electronic[i]} />
             ) : cat === "gaming" ? (
