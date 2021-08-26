@@ -59,4 +59,7 @@ app.post("/checkout", async (req, res) => {
   res.json({ error, status });
 });
 
-app.listen(8080, console.log("i'm alive"));
+app.listen(
+  process.env.PORT || 8080,
+  console.log("i'm alive on", process.env.PORT)
+);

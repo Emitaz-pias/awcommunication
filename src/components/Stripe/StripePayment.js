@@ -9,11 +9,14 @@ toast.configure();
 const StripePayment = ({ product }) => {
   console.log(product.price);
   async function handleToken(token, adress) {
-    const response = await axios.post("http://localhost:8080/checkout", {
-      token,
-      adress,
-      product,
-    });
+    const response = await axios.post(
+      "https://awcserver.herokuapp.com/checkout",
+      {
+        token,
+        adress,
+        product,
+      }
+    );
     const { status } = response.data;
     console.log("Response:", response.data);
     if (status === "success") {
