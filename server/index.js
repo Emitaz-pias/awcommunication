@@ -20,7 +20,6 @@ app.post("/checkout", async (req, res) => {
   let status;
   try {
     const { product, token } = req.body;
-    console.log(product);
     const customer = await stripe.customers.create({
       email: token.email,
       source: token.id,
@@ -56,7 +55,7 @@ app.post("/checkout", async (req, res) => {
     status = "failure";
   }
 
-  res.json({ error, status });
+  res.send([{ error }, { status }, { orderedProduct: req.body.product }]);
 });
 
 app.listen(

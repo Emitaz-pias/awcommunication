@@ -13,10 +13,18 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import UnlockingPage from "../components/UnlockingPage";
 import RepairService from "../components/RepairService";
 import AboutUs from "../components/AboutUs";
+import { createContext, useState } from "react";
+
+export const usersContext = createContext();
 
 function App() {
+  const [paymentSuccess, setPaymentSuccess] = useState(false);
   return (
-    <>
+    <usersContext.Provider
+      value={{
+        payment: [paymentSuccess, setPaymentSuccess],
+      }}
+    >
       <Router>
         <Switch>
           <Route path="/product">
@@ -61,7 +69,7 @@ function App() {
         </Switch>
       </Router>
       <Footer />
-    </>
+    </usersContext.Provider>
   );
 }
 

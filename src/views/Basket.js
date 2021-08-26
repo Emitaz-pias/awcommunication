@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./../scss/Basket.scss";
 import "../components/heades.css";
 import StripePayment from "../components/Stripe/StripePayment";
+import { usersContext } from "./App";
 
 function Basket(props) {
-  console.log("basket props", props);
   const [TDATA, setTDATA] = useState({
     buy: [],
     saved: [],
     products: [],
   });
-
+  const { payment } = useContext(usersContext);
+  const [paymentSuccess, setPaymentSuccess] = payment;
   useEffect(() => {
     let D = getDataFromLocal();
 
@@ -71,8 +72,8 @@ function Basket(props) {
 
   const [buyObj, setBuyObj] = useState([]);
   function updateBuy(D, T) {
+    console.log("before", buyObj);
     let H = D.map((save) => {
-      console.log(save);
       return T.find((P, index) => {
         if (P.id === save) {
           return P;
@@ -82,6 +83,12 @@ function Basket(props) {
     setBuyObj(H);
   }
 
+  useEffect(() => {
+    if (paymentSuccess === true) {
+      setBuyObj([{}]);
+      console.log("afterpay buy obj is", buyObj);
+    }
+  }, [paymentSuccess]);
   useEffect(() => {
     updateSave(TDATA.saved, TDATA.products);
   }, [TDATA.saved]);
@@ -120,7 +127,6 @@ function Basket(props) {
       });
     }
   };
-  console.log("bakset product", TDATA);
 
   const buyProduct = (e) => {
     if (TDATA.buy.includes(e.target.getAttribute("productid"))) {
@@ -135,6 +141,10 @@ function Basket(props) {
       });
     }
   };
+  // remove item from local storage after payment
+  if (paymentSuccess === true) {
+    localStorage.removeItem("buy");
+  }
 
   const [SC, setSC] = useState(11.7);
   const [ST, setST] = useState();
@@ -146,7 +156,7 @@ function Basket(props) {
     });
     setST(subtotal);
   }, [buyObj]);
-
+  const productPrice = Math.round(ST + SC);
   return (
     <>
       <div>
@@ -203,191 +213,200 @@ function Basket(props) {
           </Container>
         </Navbar>
       </div>
-      <div className="__Basket">
-        <div className="checkout-wrap">
-          <div className>
-            <div className="checkout-wrap">
-              <div className="custm_container custm_containerpadfix">
-                <div className="ckoutflt-Left">
-                  <h3 className="checkout_title marBot15">
-                    <span className="checkouttitleIcon" /> Items you are buying{" "}
-                  </h3>
-                  <div className="savedeletmsg" />
-                  <div className="savedeletmsg" />
-                  <div className="no-item-Div" style={{ display: "none" }}>
-                    <p className="no-item-txt">
-                      <span className="no-item-Icn" />
-                      <span>Item(s) not available!</span>
-                      <a href="/#" style={{ cursor: "pointer" }}>
-                        <span className="item-remove-Icn" /> Remove All
-                      </a>
-                      <a
-                        href="/#"
-                        style={{ cursor: "pointer" }}
-                        className="no-item-heart-icn"
-                      >
-                        <span className="heart-Icn" /> Save for Later
-                      </a>
-                    </p>
-                    <p className="item-txt">
-                      Sorry, some item(s) in your basket are not available.
-                      Please remove them or save them for later to proceed.
-                    </p>
-                  </div>
-                  <div className="no-item-Div" style={{ display: "none" }}>
-                    <p className="item-txt">Items Removed</p>
-                  </div>
-                  {/**/}
-                  {/**/}
-                  <div className="clickAndCollect chktableout">
-                    <table width="100%" cellPadding={0} cellSpacing={0}>
-                      <tbody>
-                        <tr>
-                          <th width="34%" align="left">
-                            Product Name{" "}
-                          </th>
-                          <th width="11%" align>
-                            Quantity{" "}
-                          </th>
-                          <th width="14%" align>
-                            Unit Price{" "}
-                          </th>
-                          <th width="10%" align>
-                            Subtotal{" "}
-                          </th>
-                          <th width="14%" align>
-                            Delivery Method{" "}
-                          </th>
-                        </tr>
-                        {/**/}
-                        <tr>
-                          <td colSpan={5} className="forDelivery">
-                            For Delivery {/**/}
-                            {/**/}
-                          </td>
-                        </tr>
-                        {buyObj.map((data) => {
-                          return (
-                            <>
-                              <tr className>
-                                <td>
-                                  <a href={`/product?id=${data.id}`} className>
-                                    {data.name}
-                                  </a>
-                                  <p
-                                    style={{
-                                      fontSize: "12px",
-                                      color: "rgb(119, 119, 119)",
-                                    }}
-                                  >
-                                    {data.supCat} {data.subCat}
-                                  </p>
-                                  <div>
+      {paymentSuccess ? (
+        <div className="container">
+          <h1 className="text-success">
+            Congratulations your order submitted successfully!
+          </h1>
+          <a
+            style={{
+              cursor: "pointer",
+              textDecoration: "none",
+              fontSize: "1.5em",
+              color: "green",
+            }}
+            href="/"
+          >
+            Go Home to shop more
+          </a>
+        </div>
+      ) : (
+        <div className="__Basket">
+          <div className="checkout-wrap">
+            <div className>
+              <div className="checkout-wrap">
+                <div className="custm_container custm_containerpadfix">
+                  <div className="ckoutflt-Left">
+                    <h3 className="checkout_title marBot15">
+                      <span className="checkouttitleIcon" /> Items you are
+                      buying{" "}
+                    </h3>
+                    <div className="savedeletmsg" />
+                    <div className="savedeletmsg" />
+                    <div className="no-item-Div" style={{ display: "none" }}>
+                      <p className="no-item-txt">
+                        <span className="no-item-Icn" />
+                        <span>Item(s) not available!</span>
+                        <a href="/#" style={{ cursor: "pointer" }}>
+                          <span className="item-remove-Icn" /> Remove All
+                        </a>
+                        <a
+                          href="/#"
+                          style={{ cursor: "pointer" }}
+                          className="no-item-heart-icn"
+                        >
+                          <span className="heart-Icn" /> Save for Later
+                        </a>
+                      </p>
+                      <p className="item-txt">
+                        Sorry, some item(s) in your basket are not available.
+                        Please remove them or save them for later to proceed.
+                      </p>
+                    </div>
+                    <div className="no-item-Div" style={{ display: "none" }}>
+                      <p className="item-txt">Items Removed</p>
+                    </div>
+                    {/**/}
+                    {/**/}
+                    <div className="clickAndCollect chktableout">
+                      <table width="100%" cellPadding={0} cellSpacing={0}>
+                        <tbody>
+                          <tr>
+                            <th width="34%" align="left">
+                              Product Name{" "}
+                            </th>
+                            <th width="11%" align>
+                              Quantity{" "}
+                            </th>
+                            <th width="14%" align>
+                              Unit Price{" "}
+                            </th>
+                            <th width="10%" align>
+                              Subtotal{" "}
+                            </th>
+                            <th width="14%" align>
+                              Delivery Method{" "}
+                            </th>
+                          </tr>
+                          {/**/}
+                          <tr>
+                            <td colSpan={5} className="forDelivery">
+                              For Delivery {/**/}
+                              {/**/}
+                            </td>
+                          </tr>
+                          {buyObj.map((data) => {
+                            return (
+                              <>
+                                <tr className>
+                                  <td>
                                     <a
-                                      href="/#"
-                                      style={{ cursor: "pointer" }}
-                                      className="removeCls"
-                                      onClick={buyProduct}
-                                      productid={data.id}
+                                      href={`/product?id=${data.id}`}
+                                      className
                                     >
-                                      {`${
-                                        TDATA.buy.includes(data.id)
-                                          ? "Remove"
-                                          : ""
-                                      }`}
+                                      {data.name}
                                     </a>
-                                    <a
-                                      href="/#"
-                                      style={{ cursor: "pointer" }}
-                                      className="save-later-txt-chk"
-                                      onClick={saveProduct}
-                                      productid={data.id}
+                                    <p
+                                      style={{
+                                        fontSize: "12px",
+                                        color: "rgb(119, 119, 119)",
+                                      }}
                                     >
-                                      <span className="chkheartIcon" />{" "}
-                                      {`${
-                                        TDATA.saved.includes(data.id)
-                                          ? "Un Save"
-                                          : "Save for Later"
-                                      }`}
-                                    </a>
-                                  </div>
-                                </td>
-                                <td className="txtcenter">
-                                  <select>
-                                    <option value={1}>1</option>
-                                    <option value={2}>2</option>
-                                  </select>
-                                </td>
-                                <td className="txtcenter">£ {data.price}</td>
-                                <td className="txtcenter">£ {data.price}</td>
-                                {/**/}
-                                {/**/}
-                                <td className="txtcenter" style={{}}>
-                                  <label className="delivery-method" style={{}}>
-                                    <p>
-                                      Delivery<span>FREE</span>
+                                      {data.supCat} {data.subCat}
                                     </p>
-                                    <input
-                                      type="radio"
-                                      name="sappixr64gprunlb1"
-                                      defaultValue={1}
-                                    />
-                                    <span className="radiomark" />
-                                  </label>
-                                </td>
-                              </tr>
-                            </>
-                          );
-                        })}
-                      </tbody>
-                    </table>
-                  </div>
-                  {/* <div className="cex_continueBar border border-danger">
-                    <a href="/" className="whtBtn floatLeft">
-                      Back
-                    </a>
-                    <a
-                      href="/#"
-                      style={{ cursor: "pointer" }}
-                      className="redBtn padlft62Imp floatRight"
-                    >
-                      <span className="basketIcons" />
-                      PAY NOW
-                    </a>
+                                    <div>
+                                      <a
+                                        href="/#"
+                                        style={{ cursor: "pointer" }}
+                                        className="removeCls"
+                                        onClick={buyProduct}
+                                        productid={data.id}
+                                      >
+                                        {`${
+                                          TDATA.buy.includes(data.id)
+                                            ? "Remove"
+                                            : ""
+                                        }`}
+                                      </a>
+                                      <a
+                                        href="/#"
+                                        style={{ cursor: "pointer" }}
+                                        className="save-later-txt-chk"
+                                        onClick={saveProduct}
+                                        productid={data.id}
+                                      >
+                                        <span className="chkheartIcon" />{" "}
+                                        {`${
+                                          TDATA.saved.includes(data.id)
+                                            ? "Un Save"
+                                            : "Save for Later"
+                                        }`}
+                                      </a>
+                                    </div>
+                                  </td>
+                                  <td className="txtcenter">
+                                    <select>
+                                      <option value={1}>1</option>
+                                      <option value={2}>2</option>
+                                    </select>
+                                  </td>
+                                  <td className="txtcenter">£ {data.price}</td>
+                                  <td className="txtcenter">£ {data.price}</td>
+                                  {/**/}
+                                  {/**/}
+                                  <td className="txtcenter" style={{}}>
+                                    <label
+                                      className="delivery-method"
+                                      style={{}}
+                                    >
+                                      <p>
+                                        Delivery<span>FREE</span>
+                                      </p>
+                                      <input
+                                        type="radio"
+                                        name="sappixr64gprunlb1"
+                                        defaultValue={1}
+                                      />
+                                      <span className="radiomark" />
+                                    </label>
+                                  </td>
+                                </tr>
+                              </>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
 
-                    <span className="tooltiptext">
-                      To make Pay Now button enable please answer the question
-                      above.
-                    </span>
-                    <div className="clear" />
-                  </div> */}
-                  {console.log("tdata", TDATA.buy)}
-                  <StripePayment
-                    product={{ price: ST + SC, product: TDATA.buy }}
-                  />
-                  <div />
-                </div>
-                <div className="ckoutflt-Right">
-                  <div className="leftTextCls">
-                    <label>Subtotal</label>
-                    <span>£{ST}</span>
+                    <StripePayment
+                      product={{ price: productPrice, product: buyObj }}
+                    />
+                    <div />
                   </div>
-                  <div className="dividersolid" />
-                  <div className="leftTextCls">
-                    <label>Shipping Cost</label>
-                    <span>£{SC}</span>
-                  </div>
-                  <div className="dividerimg" />
-                  <div className="leftTextCls">
-                    <label className="redcolorbigFont">GRAND TOTAL</label>
-                    <span className="redcolorbigFont">£{SC + ST}</span>
+                  <div className="ckoutflt-Right">
+                    <div className="leftTextCls">
+                      <label>Subtotal</label>
+                      <span>£{ST}</span>
+                    </div>
+                    <div className="dividersolid" />
+                    <div className="leftTextCls">
+                      <label>Shipping Cost</label>
+                      <span>£{SC}</span>
+                    </div>
+                    <div className="dividerimg" />
+                    <div className="leftTextCls">
+                      <label className="redcolorbigFont">GRAND TOTAL</label>
+                      <span className="redcolorbigFont">
+                        £{Math.round(SC + ST)}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </>
   );
 }
