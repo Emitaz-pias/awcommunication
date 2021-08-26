@@ -5,6 +5,7 @@ import "../components/heades.css";
 import StripePayment from "../components/Stripe/StripePayment";
 
 function Basket(props) {
+  console.log("basket props", props);
   const [TDATA, setTDATA] = useState({
     buy: [],
     saved: [],

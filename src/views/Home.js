@@ -15,9 +15,6 @@ function Home() {
   const [AP, setAP] = useState([]);
   const [F, setF] = useState([]);
 
-  console.log("ap is ", AP);
-  console.log("F is ", F);
-
   const [loadRows, setLoadRows] = useState(10);
   const [cat, setCat] = useState("all");
   const [subcat, setSubcat] = useState("");
@@ -32,6 +29,7 @@ function Home() {
     } else if (query.get("cat") === "electronic") {
       setCat(query.get("cat"));
     }
+
     if (query.get("s")) {
       setSearch(query.get("s"));
     }
@@ -100,7 +98,6 @@ function Home() {
               return <ProductCard key={i} info={info} />;
             })
         : F.slice(0, loadRows).map((product, i) => {
-            console.log("info is", i);
             return cat === "all" ? (
               <>
                 <ProductCard key={i} product={product} />

@@ -85,13 +85,11 @@ body {
     padding-bottom: 100px !important;
   }
   .__ProductCard .hotproducts {
-    width: 80% !important;
+    width: 45% !important;
+    margin-left: 1.5em !important;
+    margin-top: 1em !important;
   }
-  .__ProductCard {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
+
   .__Product {
     width: 100% !important;
   }
