@@ -13,8 +13,8 @@ const StripePayment = ({ product }) => {
   const [paymentSuccess, setPaymentSuccess] = payment;
   async function handleToken(token, adress) {
     const response = await axios.post(
-      // "https://awcserver.herokuapp.com/checkout",
-      " http://localhost:8080/checkout",
+      "https://awcserver.herokuapp.com/checkout",
+
       {
         token,
         adress,

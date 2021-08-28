@@ -32,14 +32,10 @@ import image28 from "../img/slider-image/slider28.jpeg";
 import image29 from "../img/slider-image/slider29.jpeg";
 import image30 from "../img/slider-image/slider30.jpeg";
 import image31 from "../img/slider-image/slider31.jpeg";
-import image32 from "../img/slider-image/slider32.jpeg";
-import image33 from "../img/slider-image/slider33.jpeg";
 import image34 from "../img/slider-image/slider34.jpeg";
 import image35 from "../img/slider-image/slider35.jpeg";
 import image36 from "../img/slider-image/slider36.jpeg";
 import image37 from "../img/slider-image/slider37.jpeg";
-import image38 from "../img/slider-image/slider38.jpeg";
-import image39 from "../img/slider-image/slider39.jpeg";
 import image40 from "../img/slider-image/slider40.jpeg";
 
 const sliderImageArray = [
@@ -74,14 +70,10 @@ const sliderImageArray = [
   image29,
   image30,
   image31,
-  image32,
-  image33,
   image34,
   image35,
   image36,
   image37,
-  image38,
-  image39,
   image40,
 ];
 

@@ -78,7 +78,7 @@ function ProductCard(props) {
         <div
           id="t049-SAPPIXR64GWUNLB"
           className="t049-rec hotproducts marginTop t049-rec-seen product-card"
-          style={{ height: "303px", border: "none" }}
+          style={{ height: "303px" }}
         >
           <div
             style={{ height: "64px", paddingLeft: "10px", lineHeight: "18px" }}
@@ -123,8 +123,8 @@ function ProductCard(props) {
               </div>
               <div className="prodPrice">
                 <div className="prodprisediv">
-                  <div className="labelTxt">WeSell for </div>
-                  <div className="priceTxt">£{data.price}</div>
+                  <div className="labelTxt">WeSell for</div>
+                  <div className="priceTxt"> £{data.price} </div>
                   <div className="clear" />
                 </div>
               </div>

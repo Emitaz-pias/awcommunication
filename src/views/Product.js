@@ -88,7 +88,7 @@ function Product(props) {
     <>
       <div className="__Product">
         <div className="productArea marginTop customproductArea overflow-show">
-          <div style={{}}>
+          <div style={{ border: "1px solid red" }}>
             <div className="superCatLink">
               <b>{data.supCat}</b>/<i>{data.subCat}</i>
               <div className="addTop icnphones" />
@@ -109,7 +109,7 @@ function Product(props) {
                 </div>
                 <img
                   src={data.image}
-                  alt="Product photo"
+                  alt="Product"
                   className="center t058-product-img"
                 />
               </div>
@@ -298,7 +298,8 @@ function Product(props) {
                     style={{ borderBottom: "0px", display: "block" }}
                   >
                     <div>
-                      <a href="/#"
+                      <a
+                        href="/#"
                         style={{ cursor: "pointer" }}
                         title="Add to Basket!"
                         productid={data.id}
@@ -352,11 +353,17 @@ function Product(props) {
                       <div id="displayDialog" />
                       <div className="collection-content">
                         <p className="enabled">
-                          <img alt="" src="https://uk.webuy.com/_nuxt/0511e13d9feef528a7d68e2b2f796b28.png" />
+                          <img
+                            alt=""
+                            src="https://uk.webuy.com/_nuxt/0511e13d9feef528a7d68e2b2f796b28.png"
+                          />
                           Collection Available
                         </p>
                         <p className="enabled">
-                          <img alt="" src="https://uk.webuy.com/_nuxt/c17545f77628ed8bff694167cbc19f24.png" />
+                          <img
+                            alt=""
+                            src="https://uk.webuy.com/_nuxt/c17545f77628ed8bff694167cbc19f24.png"
+                          />
                           Delivery Available
                         </p>
                       </div>

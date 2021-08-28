@@ -931,10 +931,10 @@
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .customproductArea {
       .productImg {
-        width: 58%;
+        width: 100%;
       }
     }
     .svlpro-det {
