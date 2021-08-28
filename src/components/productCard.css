@@ -9,5 +9,6 @@
   border: none;
 }
 .productImg {
-  height: 12em;
+  height: 10em;
+  max-width: 10em;
 }

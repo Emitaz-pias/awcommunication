@@ -76,23 +76,27 @@ function ProductCard(props) {
 
   return (
     <>
-      <div>
+      <div className="mt-1 mb-2 w-100 rows">
         <div
-          style={{ float: "left", border: " 2px solid #333" }}
-          className="m-1 mb-2"
+          className="ms-1 mt-3 me-1 card col-lg-4 col-md-4 col-sm-6 col-xs-6"
+          style={{
+            // height: "auto",
+            minwidth: "26em",
+            maxWidth: "26em",
+            float: "left",
+            border: " 2px solid #333",
+            borderRadius: "0px",
+          }}
         >
-          <div
-            class="card d-flex-row align-itmes-center "
-            style={{ minWidth: "30em", maxWidth: "30em" }}
-          >
-            <div className="row g-0">
-              <p className="mb-2 mt-1">
-                <strong>{data.subCat}/</strong>
-                <span>{data.supCat}</span>
-              </p>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center g-0">
-              <div class="col-md-5 col-sm-3">
+          <div className="row g-0">
+            <p className="mb-2 mt-1">
+              <strong>{data.subCat}/</strong>
+              <span>{data.supCat}</span>
+            </p>
+          </div>
+          <div class="row w-100 g-0">
+            <div className=" d-flex justify-content-center align-items-center">
+              <div class="">
                 <img
                   src={data.image}
                   alt={data.name}
@@ -100,14 +104,16 @@ function ProductCard(props) {
                   className="productImg img-fluid"
                 />
               </div>
-              <div class="col-md-6 ">
+              <div class="row">
                 <div class="card-body ">
                   <h5 class="card-title pt-2">{data.name}</h5>
                   <p class="card-text">
                     <div className="rating-static ratingDiv">
                       <div
                         className="rating-static filed-star"
-                        style={{ width: `${(data.rating / 5) * 80 + "px"}` }}
+                        style={{
+                          width: `${(data.rating / 5) * 80 + "px"}`,
+                        }}
                       />
                       {data.rating}
                     </div>
@@ -118,26 +124,26 @@ function ProductCard(props) {
                 </div>
               </div>
             </div>
-            <div className="row g-0">
-              <button
-                onClick={buyProduct}
-                style={{
-                  width: "100%",
-                  height: "2.4em",
-                }}
-                className="mt-5 thisbuyNowButton"
-              >
-                <span
-                  style={{ fontWeight: "600" }}
-                  className="text-white"
-                  productid={data.id}
-                >{`${
-                  TDATA.buy.includes(data.id)
-                    ? "Remove from cart"
-                    : "I want to buy this item"
-                }`}</span>
-              </button>
-            </div>
+          </div>
+          <div className="row">
+            <button
+              onClick={buyProduct}
+              style={{
+                width: "100%",
+                height: "2.4em",
+              }}
+              className="mt-5 thisbuyNowButton col-md-3"
+            >
+              <span
+                style={{ fontWeight: "600" }}
+                className="text-white"
+                productid={data.id}
+              >{`${
+                TDATA.buy.includes(data.id)
+                  ? "Remove from cart"
+                  : "I want to buy this item"
+              }`}</span>
+            </button>
           </div>
         </div>
       </div>
