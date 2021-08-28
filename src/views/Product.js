@@ -298,8 +298,7 @@ function Product(props) {
                     style={{ borderBottom: "0px", display: "block" }}
                   >
                     <div>
-                      <a
-                        href="/#"
+                      <button
                         style={{ cursor: "pointer" }}
                         title="Add to Basket!"
                         productid={data.id}
@@ -325,7 +324,7 @@ function Product(props) {
                             }`}
                           </span>
                         </div>
-                      </a>
+                      </button>
                     </div>
                     <div className="btnSection" style={{ display: "none" }}>
                       <div

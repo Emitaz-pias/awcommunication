@@ -72,81 +72,72 @@ function ProductCard(props) {
     }
   };
 
+  console.log("product data is", data);
+
   return (
     <>
-      <div className="__ProductCard">
+      <div>
         <div
-          id="t049-SAPPIXR64GWUNLB"
-          className="t049-rec hotproducts marginTop t049-rec-seen product-card"
-          style={{ height: "303px" }}
+          style={{ float: "left", border: " 2px solid #333" }}
+          className="m-1 mb-2"
         >
           <div
-            style={{ height: "64px", paddingLeft: "10px", lineHeight: "18px" }}
-            className="superCatLink"
+            class="card d-flex-row align-itmes-center "
+            style={{ minWidth: "30em", maxWidth: "30em" }}
           >
-            <span className="link">
-              <b>{data.subCat}</b>
-            </span>
-            <span className="link">/ {data.subCat}</span>
-          </div>
-          <div className="hotProductDetails">
-            <div className="prodImg t058-checked">
-              <a
-                href={`/product?id=${data.id}`}
-                className="t049-toPDP t049-rec-SAPPIXR64GWUNLB"
-                data-url={`/product?id=${data.id}`}
-              >
+            <div className="row g-0">
+              <p className="mb-2 mt-1">
+                <strong>{data.subCat}/</strong>
+                <span>{data.supCat}</span>
+              </p>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center g-0">
+              <div class="col-md-5 col-sm-3">
                 <img
                   src={data.image}
                   alt={data.name}
                   title={data.name}
-                  border={0}
+                  className="productImg img-fluid"
                 />
-              </a>
-            </div>
-            <div className="prodDetails">
-              <div className="prodName">
-                <div className="savdiv">
-                  <a
-                    href={`/product?id=${data.id}`}
-                    data-url={`/product?id=${data.id}`}
-                  >
-                    {data.name}
-                  </a>
-                  <div className="rating-static ratingDiv">
-                    <div
-                      className="rating-static filed-star"
-                      style={{ width: `${(data.rating / 5) * 80 + "px"}` }}
-                    />
-                  </div>
-                </div>
               </div>
-              <div className="prodPrice">
-                <div className="prodprisediv">
-                  <div className="labelTxt">WeSell for</div>
-                  <div className="priceTxt"> £{data.price} </div>
-                  <div className="clear" />
+              <div class="col-md-6 ">
+                <div class="card-body ">
+                  <h5 class="card-title pt-2">{data.name}</h5>
+                  <p class="card-text">
+                    <div className="rating-static ratingDiv">
+                      <div
+                        className="rating-static filed-star"
+                        style={{ width: `${(data.rating / 5) * 80 + "px"}` }}
+                      />
+                      {data.rating}
+                    </div>
+                  </p>
+                  <p class="card-text">
+                    <strong>We sell for £ {data.price}</strong>
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="btnSection">
-            <a
-              href="/#"
-              className="t049-button t049-rec-SAPPIXR64GWUNLB"
-              style={{ cursor: "pointer" }}
-              onClick={buyProduct}
-              productid={data.id}
-            >
-              <div className="buyNowButton" productid={data.id}>
-                <div className="addShine" productid={data.id} />
-                <span productid={data.id}>{`${
+            <div className="row g-0">
+              <button
+                onClick={buyProduct}
+                style={{
+                  width: "100%",
+                  height: "2.4em",
+                }}
+                className="mt-5 thisbuyNowButton"
+              >
+                <span
+                  style={{ fontWeight: "600" }}
+                  className="text-white"
+                  productid={data.id}
+                >{`${
                   TDATA.buy.includes(data.id)
                     ? "Remove from cart"
                     : "I want to buy this item"
                 }`}</span>
-              </div>
-            </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -155,3 +146,82 @@ function ProductCard(props) {
 }
 
 export default ProductCard;
+
+// {
+//   /* <div className="__ProductCard">
+//         <div
+//           id="t049-SAPPIXR64GWUNLB"
+//           className="t049-rec hotproducts marginTop t049-rec-seen product-card"
+//           style={{ height: "303px" }}
+//         >
+//           <div
+//             style={{ height: "64px", paddingLeft: "10px", lineHeight: "18px" }}
+//             className="superCatLink"
+//           >
+//             <span className="link">
+//               <b>{data.subCat}</b>
+//             </span>
+//             <span className="link">/ {data.subCat}</span>
+//           </div>
+//           <div className="hotProductDetails">
+//             <div className="prodImg t058-checked">
+//               <a
+//                 href={`/product?id=${data.id}`}
+//                 className="t049-toPDP t049-rec-SAPPIXR64GWUNLB"
+//                 data-url={`/product?id=${data.id}`}
+//               >
+//                 <img
+//                   src={data.image}
+//                   alt={data.name}
+//                   title={data.name}
+//                   border={0}
+//                 />
+//               </a>
+//             </div>
+//             <div className="prodDetails">
+//               <div className="prodName">
+//                 <div className="savdiv">
+//                   <a
+//                     href={`/product?id=${data.id}`}
+//                     data-url={`/product?id=${data.id}`}
+//                   >
+//                     {data.name}
+//                   </a>
+//                   <div className="rating-static ratingDiv">
+//                     <div
+//                       className="rating-static filed-star"
+//                       style={{ width: `${(data.rating / 5) * 80 + "px"}` }}
+//                     />
+//                   </div>
+//                 </div>
+//               </div>
+//               <div className="prodPrice">
+//                 <div className="prodprisediv">
+//                   <div className="labelTxt">WeSell for</div>
+//                   <div className="priceTxt"> £{data.price} </div>
+//                   <div className="clear" />
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//           <div className="btnSection">
+//             <a
+//               href="/#"
+//               className="t049-button t049-rec-SAPPIXR64GWUNLB"
+//               style={{ cursor: "pointer" }}
+//               onClick={buyProduct}
+//               productid={data.id}
+//             >
+//               <div className="buyNowButton" productid={data.id}>
+//                 <div className="addShine" productid={data.id} />
+//                 <span productid={data.id}>{`${
+//                   TDATA.buy.includes(data.id)
+//                     ? "Remove from cart"
+//                     : "I want to buy this item"
+//                 }`}</span>
+//               </div>
+//             </a>
+//           </div>
+//         </div>
+//       </div> */
+// }
