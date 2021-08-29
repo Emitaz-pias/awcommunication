@@ -60,5 +60,5 @@ app.post("/checkout", async (req, res) => {
 
 app.listen(
   process.env.PORT || 8080,
-  console.log("i'm alive on", process.env.PORT)
+  console.log("i'm alibe on", process.env.PORT)
 );
