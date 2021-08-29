@@ -82,7 +82,7 @@ const Caouselmage = () => {
     <>
       <div className="banner-slider-container">
         <div className="banner-slider">
-          <Carousel interval={2000} fade={true}>
+          <Carousel interval={2000} fade={true} controls={false}>
             {sliderImageArray.map((image) => {
               return (
                 <Carousel.Item>

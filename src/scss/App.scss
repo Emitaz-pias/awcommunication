@@ -18,6 +18,18 @@ body {
     background-color: #ccc;
   }
 }
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+  ._pdC {
+    width: 80%;
+    margin: none !important;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  ._pdC {
+    width: 90% !important;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   #topLinksArea {

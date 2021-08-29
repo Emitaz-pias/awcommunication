@@ -76,7 +76,7 @@ function ProductCard(props) {
     <>
       <div className="mt-1 mb-2 w-100 rows">
         <div
-          className="ms-1 mt-3 me-1 card col-lg-4 col-md-4 col-sm-6 col-xs-6"
+          className="ms-2 mt-3 me-1 card col-lg-4 col-md-4 col-sm-6 col-xs-12 _pdC"
           style={{
             minwidth: "26em",
             maxWidth: "26em",
