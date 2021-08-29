@@ -42,6 +42,7 @@ const StripePayment = ({ product }) => {
         stripeKey="pk_test_iONwyHcRVWakZiYUQOPzcA8d00C5WkKbt2"
         token={handleToken}
         amount={product.price * 100}
+        currency={"gbp"}
         billingAddress
         shippingAddress
       />
