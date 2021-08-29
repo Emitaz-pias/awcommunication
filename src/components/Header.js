@@ -15,6 +15,7 @@ function Header(props) {
   const [gaming, setGaming] = useState([]);
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
+  const [laptops, setLaptops] = useState([]);
   const [open, setOpen] = useState(false);
   const handleOpen = () => {
     setOpen((open) => !open);
@@ -43,6 +44,13 @@ function Header(props) {
       })
       .then(function (data) {
         setPhone(distinctItem(data));
+      });
+    fetch("js/laptops.json")
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        setLaptops(distinctItem(data));
       });
   }, []);
 

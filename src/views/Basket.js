@@ -11,6 +11,7 @@ function Basket(props) {
     saved: [],
     products: [],
   });
+  console.log(props, "props", "tada is ,", TDATA);
   const { payment } = useContext(usersContext);
   const [paymentSuccess, setPaymentSuccess] = payment;
   useEffect(() => {
@@ -71,8 +72,8 @@ function Basket(props) {
   }, [TDATA.buy]);
 
   const [buyObj, setBuyObj] = useState([]);
+
   function updateBuy(D, T) {
-    console.log("before", buyObj);
     let H = D.map((save) => {
       return T.find((P, index) => {
         if (P.id === save) {
@@ -82,6 +83,7 @@ function Basket(props) {
     });
     setBuyObj(H);
   }
+  console.log("before", buyObj);
 
   useEffect(() => {
     if (paymentSuccess === true) {
@@ -295,6 +297,7 @@ function Basket(props) {
                               {/**/}
                             </td>
                           </tr>
+                          {console.log("buy obj before map is", buyObj)}
                           {buyObj.map((data) => {
                             return (
                               <>

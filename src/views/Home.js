@@ -108,10 +108,10 @@ function Home() {
             .map((info, i) => {
               return <ProductCard key={i} info={info} />;
             })
-        : F.slice(0, loadRows).map((product, i) => {
+        : F.slice(0, loadRows).map((info, i) => {
             return cat === "all" ? (
               <>
-                <ProductCard key={i} product={product} />
+                <ProductCard key={i} info={info} />
               </>
             ) : cat === "phone" ? (
               <ProductCard key={"phone[" + i + "]"} info={phone[i]} />

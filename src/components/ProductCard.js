@@ -17,10 +17,10 @@ function ProductCard(props) {
     quantity: "",
   });
   useEffect(() => {
-    if (props.product) {
-      setData(props.product);
+    if (props.info) {
+      setData(props.info);
     }
-  }, [props.product]);
+  }, [props.info]);
 
   const setCart = (product) => {
     localStorage.setItem("cart", product);
@@ -80,33 +80,48 @@ function ProductCard(props) {
         <div
           className="ms-1 mt-3 me-1 card col-lg-4 col-md-4 col-sm-6 col-xs-6"
           style={{
-            // height: "auto",
             minwidth: "26em",
             maxWidth: "26em",
             float: "left",
             border: " 2px solid #333",
             borderRadius: "0px",
           }}
+          subCat={data.subCat}
+          supCat={data.supCat}
         >
           <div className="row g-0">
             <p className="mb-2 mt-1">
-              <strong>{data.subCat}/</strong>
-              <span>{data.supCat}</span>
+              <strong className="link">{data.subCat}</strong>
+
+              <strong className="link">/{data.subCat}</strong>
             </p>
           </div>
           <div class="row w-100 g-0">
             <div className=" d-flex justify-content-center align-items-center">
               <div class="">
-                <img
-                  src={data.image}
-                  alt={data.name}
-                  title={data.name}
-                  className="productImg img-fluid"
-                />
+                <a
+                  href={`/product?id=${data.id}`}
+                  className="t049-toPDP t049-rec-SAPPIXR64GWUNLB"
+                  data-url={`/product?id=${data.id}`}
+                >
+                  <img
+                    src={data.image}
+                    alt={data.name}
+                    title={data.name}
+                    className="productImg img-fluid"
+                  />
+                </a>
               </div>
               <div class="row">
                 <div class="card-body ">
-                  <h5 class="card-title pt-2">{data.name}</h5>
+                  <h5 class="card-title pt-2">
+                    <a
+                      href={`/product?id=${data.id}`}
+                      data-url={`/product?id=${data.id}`}
+                    >
+                      {data.name}
+                    </a>
+                  </h5>
                   <p class="card-text">
                     <div className="rating-static ratingDiv">
                       <div
@@ -132,17 +147,14 @@ function ProductCard(props) {
                 width: "100%",
                 height: "2.4em",
               }}
-              className="mt-5 thisbuyNowButton col-md-3"
+              className="mt-5 text-white thisbuyNowButton col-md-3"
+              productid={data.id}
             >
-              <span
-                style={{ fontWeight: "600" }}
-                className="text-white"
-                productid={data.id}
-              >{`${
+              {`${
                 TDATA.buy.includes(data.id)
                   ? "Remove from cart"
                   : "I want to buy this item"
-              }`}</span>
+              }`}
             </button>
           </div>
         </div>

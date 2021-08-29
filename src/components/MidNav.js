@@ -7,6 +7,7 @@ const MidNav = () => {
   const [gaming, setGaming] = useState([]);
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
+  const [laptops, setLaptops] = useState([]);
 
   useEffect(() => {
     fetch("js/electronic.json")
@@ -31,6 +32,13 @@ const MidNav = () => {
       })
       .then(function (data) {
         setPhone(distinctItem(data));
+      });
+    fetch("js/laptops.json")
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        setLaptops(distinctItem(data));
       });
   }, []);
 
