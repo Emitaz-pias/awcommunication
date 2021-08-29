@@ -29,7 +29,7 @@ app.post("/checkout", async (req, res) => {
     const charge = await stripe.charges.create(
       {
         amount: product.price * 100,
-        currency: "gbp",
+        currency: "GBP",
         customer: customer.id,
         receipt_email: token.email,
 
