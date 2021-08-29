@@ -4,6 +4,7 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 const stripe = require("stripe")("sk_test_Gb23o1FPa9sSo82U9L6yt4ua00xuzDEuwC");
 const uuid = require("uuid").v4;
+const { MongoClient } = require("mongodb");
 
 const app = express();
 app.use(cors());
@@ -13,6 +14,7 @@ app.get("/", (req, res) => {
   res.send("hello world");
 });
 
+// process payment
 app.post("/checkout", async (req, res) => {
   console.log("Request:", req.body);
 
@@ -48,7 +50,7 @@ app.post("/checkout", async (req, res) => {
         idempotencyKey,
       }
     );
-    console.log("Charge:", { charge });
+    // console.log("Charge:", { charge });
     status = "success";
   } catch (error) {
     console.error("Error:", error);
@@ -58,7 +60,37 @@ app.post("/checkout", async (req, res) => {
   res.send([{ error }, { status }, { orderedProduct: req.body.product }]);
 });
 
+// post order to the server
+
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.iutb3.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+const client = new MongoClient(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+client.connect((err) => {
+  const orderCollection = client
+    .db(`${process.env.DB_NAME}`)
+    .collection(`${process.env.COLLECTION_NAME}`);
+
+  app.post("/sendOrder", (req, res) => {
+    const order = { order: req.body };
+    orderCollection.insertOne(order);
+  });
+
+  app.get("/dashboardOwnerHafizVai", (req, res) => {
+    orderCollection
+      .find({})
+      .toArray()
+      .then((orders, err) => {
+        res.send(orders);
+      });
+  });
+  // perform actions on the collection object
+  console.log("db connected");
+});
+
 app.listen(
   process.env.PORT || 8080,
-  console.log("i'm alibe on", process.env.PORT)
+  console.log("i'm alive on", process.env.PORT)
 );

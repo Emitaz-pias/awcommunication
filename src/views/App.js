@@ -14,15 +14,18 @@ import UnlockingPage from "../components/UnlockingPage";
 import RepairService from "../components/RepairService";
 import AboutUs from "../components/AboutUs";
 import { createContext, useState } from "react";
+import Dashboard from "../components/Dashboard";
 
 export const usersContext = createContext();
 
 function App() {
   const [paymentSuccess, setPaymentSuccess] = useState(false);
+  const [orderdProducts, setOrderdProducts] = useState([]);
   return (
     <usersContext.Provider
       value={{
         payment: [paymentSuccess, setPaymentSuccess],
+        orderedPd: [orderdProducts, setOrderdProducts],
       }}
     >
       <Router>
@@ -60,6 +63,9 @@ function App() {
             <Layout>
               <AboutUs />
             </Layout>
+          </Route>
+          <Route path="/dashboardOwnerHafizVai">
+            <Dashboard />
           </Route>
           <Route exact path="/">
             <Layout>

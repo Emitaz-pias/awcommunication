@@ -2,27 +2,44 @@ import React, { useContext } from "react";
 import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 import { toast } from "react-toastify";
-
 import "react-toastify/dist/ReactToastify.css";
 import { usersContext } from "../../views/App";
 
 toast.configure();
 
 const StripePayment = ({ product }) => {
-  const { payment } = useContext(usersContext);
+  const { payment, orderedPd } = useContext(usersContext);
   const [paymentSuccess, setPaymentSuccess] = payment;
+  const [orderdProducts, setOrderdProducts] = orderedPd;
+
   async function handleToken(token, adress) {
     const response = await axios.post(
-      "https://awc-server.herokuapp.com/checkout",
-
+      // "https://awc-server.herokuapp.com/checkout",
+      "http://localhost:8080/checkout",
       {
         token,
         adress,
         product,
       }
     );
+
     const { status } = response.data[1];
-    console.log("Response:", response.data);
+    const orderedProductsPaid = response.data[2].orderedProduct.product;
+    fetch("http://localhost:8080/sendOrder", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(orderedProductsPaid),
+    })
+      .then((res) => res.json())
+      .then((order) => order);
+
+    console.log("order is boto,", orderedProductsPaid);
+    // console.log("response is", response.data[2].orderedProduct.product);
+    // console.log("paind pd is", orderedProductsPaid);
+    // console.log("order pay after pd is", orderdProducts);
+
     if (status === "success") {
       toast(
         "Congratulations.. Your payment is successful! Check email for details",

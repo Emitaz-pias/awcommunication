@@ -72,8 +72,6 @@ function ProductCard(props) {
     }
   };
 
-  console.log("product data is", data);
-
   return (
     <>
       <div className="mt-1 mb-2 w-100 rows">

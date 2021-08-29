@@ -11,7 +11,6 @@ function Basket(props) {
     saved: [],
     products: [],
   });
-  console.log(props, "props", "tada is ,", TDATA);
   const { payment } = useContext(usersContext);
   const [paymentSuccess, setPaymentSuccess] = payment;
   useEffect(() => {
@@ -83,12 +82,10 @@ function Basket(props) {
     });
     setBuyObj(H);
   }
-  console.log("before", buyObj);
 
   useEffect(() => {
     if (paymentSuccess === true) {
       setBuyObj([{}]);
-      console.log("afterpay buy obj is", buyObj);
     }
   }, [paymentSuccess]);
   useEffect(() => {
@@ -297,7 +294,6 @@ function Basket(props) {
                               {/**/}
                             </td>
                           </tr>
-                          {console.log("buy obj before map is", buyObj)}
                           {buyObj.map((data) => {
                             return (
                               <>
