@@ -20,35 +20,54 @@ function Basket(props) {
       .then(function (r) {
         return r.json();
       })
-      .then(function (data0) {
-        fetch("js/laptops.json")
-          .then(function (r0) {
-            return r0.json();
+      .then(function (data1) {
+        fetch("js/tablets.json")
+          .then(function (r1) {
+            return r1.json();
           })
-          .then(function (data) {
-            fetch("js/gaming.json")
-              .then(function (r2) {
-                return r2.json();
+          .then(function (data0) {
+            fetch("js/laptops.json")
+              .then(function (r0) {
+                return r0.json();
               })
-
-              .then(function (data2) {
-                fetch("js/phone.json")
-                  .then(function (r3) {
-                    return r3.json();
+              .then(function (data) {
+                fetch("js/gaming.json")
+                  .then(function (r2) {
+                    return r2.json();
                   })
-                  .then(function (data3) {
-                    updateBuy(D.buy, [...data0, ...data, ...data2, ...data3]);
-                    updateSave(D.saved, [
-                      ...data0,
-                      ...data,
-                      ...data2,
-                      ...data3,
-                    ]);
-                    setTDATA({
-                      ...TDATA,
-                      ...D,
-                      products: [...data0, ...data, ...data2, ...data3],
-                    });
+
+                  .then(function (data2) {
+                    fetch("js/phone.json")
+                      .then(function (r3) {
+                        return r3.json();
+                      })
+                      .then(function (data3) {
+                        updateBuy(D.buy, [
+                          ...data0,
+                          ...data1,
+                          ...data,
+                          ...data2,
+                          ...data3,
+                        ]);
+                        updateSave(D.saved, [
+                          ...data0,
+                          ...data1,
+                          ...data,
+                          ...data2,
+                          ...data3,
+                        ]);
+                        setTDATA({
+                          ...TDATA,
+                          ...D,
+                          products: [
+                            ...data0,
+                            ...data1,
+                            ...data,
+                            ...data2,
+                            ...data3,
+                          ],
+                        });
+                      });
                   });
               });
           });
@@ -385,7 +404,7 @@ function Basket(props) {
                   <div className="ckoutflt-Right">
                     <div className="leftTextCls">
                       <label>Subtotal</label>
-                      <span>£{ST}</span>
+                      <span>£{Math.round(ST)}</span>
                     </div>
                     <div className="dividersolid" />
                     <div className="leftTextCls">

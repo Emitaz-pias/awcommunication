@@ -12,7 +12,7 @@ function Home() {
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
   const [laptops, setLaptops] = useState([]);
-
+  const [tablets, setTablets] = useState([]);
   const [AP, setAP] = useState([]);
   const [F, setF] = useState([]);
 
@@ -31,8 +31,9 @@ function Home() {
       setCat(query.get("cat"));
     } else if (query.get("cat") === "laptops") {
       setCat(query.get("cat"));
+    } else if (query.get("cat") === "tablets") {
+      setCat(query.get("cat"));
     }
-
     if (query.get("s")) {
       setSearch(query.get("s"));
     }
@@ -71,22 +72,32 @@ function Home() {
       .then(function (data) {
         setLaptops(data);
       });
+
+    fetch("js/tablets.json")
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        setTablets(data);
+      });
   }, []);
 
   useEffect(() => {
-    setAP([...laptops, ...phone, ...electronic, ...gaming]);
+    setAP([...laptops, ...tablets, ...phone, ...electronic, ...gaming]);
 
     setF(
-      [...laptops, ...phone, ...electronic, ...gaming].filter((P) => {
-        return (
-          P.name.toLowerCase().includes(search.toLowerCase()) ||
-          P.supCat.toLowerCase().includes(search.toLowerCase()) ||
-          // P.subCat.toLowerCase().includes(subcat.toLowerCase()) ||
-          P.image.toLowerCase().includes(search.toLowerCase())
-        );
-      })
+      [...laptops, ...tablets, ...phone, ...electronic, ...gaming].filter(
+        (P) => {
+          return (
+            P.name.toLowerCase().includes(search.toLowerCase()) ||
+            P.supCat.toLowerCase().includes(search.toLowerCase()) ||
+            // P.subCat.toLowerCase().includes(subcat.toLowerCase()) ||
+            P.image.toLowerCase().includes(search.toLowerCase())
+          );
+        }
+      )
     );
-  }, [laptops, phone, electronic, gaming]);
+  }, [laptops, tablets, phone, electronic, gaming]);
 
   return (
     <div className="__Home">
@@ -95,7 +106,7 @@ function Home() {
             return <ProductCard key={i} info={info} />;
           })
         : subcat !== ""
-        ? [...laptops, ...phone, ...electronic, ...gaming]
+        ? [...laptops, ...tablets, ...phone, ...electronic, ...gaming]
             .filter((P) => {
               return (
                 P.subCat
@@ -121,6 +132,8 @@ function Home() {
               <ProductCard key={"electronic[" + i + "]"} info={electronic[i]} />
             ) : cat === "gaming" ? (
               <ProductCard key={"gaming[" + i + "]"} info={gaming[i]} />
+            ) : cat === "tablets" ? (
+              <ProductCard key={"tablets[" + i + "]"} info={tablets[i]} />
             ) : (
               ""
             );

@@ -8,6 +8,7 @@ const MidNav = () => {
   const [phone, setPhone] = useState([]);
   const [electronic, setElectronic] = useState([]);
   const [laptops, setLaptops] = useState([]);
+  const [tablets, setTablets] = useState([]);
 
   useEffect(() => {
     fetch("js/electronic.json")
@@ -39,6 +40,13 @@ const MidNav = () => {
       })
       .then(function (data) {
         setLaptops(distinctItem(data));
+      });
+    fetch("js/tablets.json")
+      .then(function (r) {
+        return r.json();
+      })
+      .then(function (data) {
+        setTablets(distinctItem(data));
       });
   }, []);
 
@@ -118,6 +126,31 @@ const MidNav = () => {
                   ))}
                 </div>
               </NavDropdown>
+              <NavDropdown
+                style={{
+                  fontWeight: "500",
+                }}
+                title="Tablets"
+                id="collasible-nav-dropdown"
+                className="nav-dropdown"
+              >
+                <div
+                  style={{
+                    height: "180px",
+                    overflowY: "scroll",
+                  }}
+                >
+                  {tablets.map((category) => (
+                    <NavDropdown.Item
+                      style={{ fontWeight: "500" }}
+                      href={`/?subcat=${category}`}
+                    >
+                      {category}
+                    </NavDropdown.Item>
+                  ))}
+                </div>
+              </NavDropdown>
+
               <NavDropdown
                 style={{ fontWeight: "500" }}
                 title="Gaming"

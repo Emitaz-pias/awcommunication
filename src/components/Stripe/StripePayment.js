@@ -14,8 +14,8 @@ const StripePayment = ({ product }) => {
 
   async function handleToken(token, adress) {
     const response = await axios.post(
-      // "https://awc-server.herokuapp.com/checkout",
-      "http://localhost:8080/checkout",
+      "https://awc-server.herokuapp.com/checkout",
+
       {
         token,
         adress,
@@ -25,7 +25,7 @@ const StripePayment = ({ product }) => {
 
     const { status } = response.data[1];
     const orderedProductsPaid = response.data[2].orderedProduct.product;
-    fetch("http://localhost:8080/sendOrder", {
+    fetch("https://awc-server.herokuapp.com/sendOrder", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

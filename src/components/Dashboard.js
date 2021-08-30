@@ -5,7 +5,7 @@ const Dashboard = () => {
   const [ordersproducts, setOrderdProducts] = useState([]);
   console.log(orders[0]);
   useEffect(() => {
-    fetch("http://localhost:8080/dashboardOwnerHafizVai")
+    fetch("https://awc-server.herokuapp.com/dashboardOwnerHafizVai")
       .then((res) => res.json())
       .then((orders) => {
         //   console.log("orders:", orders, "products:", orders[0].order);
