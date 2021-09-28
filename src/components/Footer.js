@@ -13,9 +13,9 @@ function Footer(props) {
       <div className="footer-container">
         <div className="footer-logo-container">
           <img
-            style={{ width: "200px" }}
+            style={{ width: "200px", zIndex: "1" }}
             alt=""
-            src="../../img/logo1.png"
+            src="../../img/logo2.png"
           ></img>
         </div>
         <div className="row">
@@ -230,12 +230,13 @@ function Footer(props) {
                   style={{ fontSize: "18px", color: "white" }}
                   class="fa fa-envelope mr-2"
                 ></i>
-                info@awcommunications.co.uk
+                info@technoglobe.co.uk
               </a>
             </div>
             <div className="copyrightText">
               <span>
-                © 2021 AW Communications Powered by{" "}
+                © 2021 Techno Globe
+                {"    "} by {"   "}
                 <b>
                   <a href="https://clicktaketech.com">ClickTake Technologies</a>
                 </b>

@@ -81,7 +81,7 @@ function Header(props) {
               <img
                 alt=""
                 style={{ width: "120px" }}
-                src="../../brand-logo.png"
+                src="../../img/logo2.png"
               ></img>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
